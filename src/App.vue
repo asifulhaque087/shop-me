@@ -1,22 +1,36 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-// import HelloWorld from './components/HelloWorld.vue'
+
+<script>
+// import HelloWorld from "./components/HelloWorld.vue";
+import TopHeader from "./components/TopHeader.vue";
+
+export default {
+
+}
+
 </script>
 
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" /> -->
-  <div class="bg-[tan]">mridul</div>
+  <div>
+    <!-- <HelloWorld msg="Hello Vue 3 + Vite" /> -->
+    <TopHeader />
+  </div>
 </template>
 
 <style>
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+#app {
+  /* font-family: Avenir, Helvetica, Arial, sans-serif; */
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
-} */
+  margin-top: 60px; */
+}
 </style>
+
+
+// <script setup>
+//   import HelloWorld from "./components/HelloWorld.vue";
+//   import TopHeader from "./components/TopHeader.vue";
+// </script>
