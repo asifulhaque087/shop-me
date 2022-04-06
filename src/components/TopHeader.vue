@@ -16,7 +16,7 @@ export default {};
       <svg
         id="dropdownDefault"
         data-dropdown-toggle="dropdown"
-        class="px-2 w-8 h-8"
+        class="px-2 w-8 h-8 text-gray-600"
         fill="none"
         stroke="currentColor"
         viewBox="0 0 24 24"
@@ -29,11 +29,11 @@ export default {};
           d="M19 9l-7 7-7-7"
         ></path>
       </svg>
-      <span> USD </span>
+      <span class="text-[13px]"> USD </span>
       <svg
         id="dropdownDefault"
         data-dropdown-toggle="dropdown2"
-        class="px-2 w-8 h-8"
+        class="px-2 w-8 h-8 text-gray-600"
         fill="none"
         stroke="currentColor"
         viewBox="0 0 24 24"
