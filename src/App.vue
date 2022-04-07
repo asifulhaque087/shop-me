@@ -2,9 +2,10 @@
 <script>
 import TopHeader from './components/TopHeader.vue';
 import MiddleHeader from './components/MiddleHeader.vue';
+import BottomHeader from './components/BottomHeader.vue';
 
 export default {
-  components: { MiddleHeader, TopHeader },
+  components: { MiddleHeader, TopHeader, BottomHeader },
 
 }
 
@@ -15,6 +16,7 @@ export default {
     <!-- <HelloWorld msg="Hello Vue 3 + Vite" /> -->
     <top-header />
     <middle-header />
+    <bottom-header/>
 
   </div>
 </template>
