@@ -31,8 +31,10 @@ export default {
         hic sed error voluptates, minus voluptatibus porro quas! Adipisci.
       </div>
       <!-- right -->
-      <div class="grow">
-        <example-slider />
+      <div class="grow shrink basis-0 overflow-hidden">
+        <div class="mt-8">
+          <example-slider />
+        </div>
       </div>
     </div>
   </div>

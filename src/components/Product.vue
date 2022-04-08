@@ -4,10 +4,7 @@ export default {
 };
 </script>
 <template>
-  <div
-    class="card border-t border-b border-l px-10"
-    :class="location ? 'border-r' : 'null'"
-  >
+  <div class="px-8">
     <a href="{`/product/${id}`}">
       <div class="rounded-tl rounded-tr mb-1 relative cursor-pointer">
         <span
@@ -298,7 +295,7 @@ export default {
     </a>
     <button
       type="button"
-      class="text-white bg-[#4ac4fa] hover:bg-[#018bc8] focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+      class="whitespace-nowrap text-white bg-[#4ac4fa] hover:bg-[#018bc8] focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
     >
       Add to cart
     </button>

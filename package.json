@@ -8,7 +8,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "element-plus": "^2.1.8",
+    "swiper": "^8.1.0",
     "vue": "^3.2.25",
+    "vue-split-carousel": "^2.2.3",
     "vue3-carousel": "^0.1.38"
   },
   "devDependencies": {
