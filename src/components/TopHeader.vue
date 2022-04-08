@@ -4,7 +4,7 @@ export default {};
 
 <template>
   <div
-    class="bg-gray-50 flex flex-col items-center gap-1 text-sm border-b py-3 md:flex-row md:justify-between px-[20%]"
+    class="bg-gray-50 flex flex-col items-center gap-1 text-sm border-b py-1 md:flex-row md:justify-between px-[8%]"
   >
     <!-- login -->
     <div>Login</div>
