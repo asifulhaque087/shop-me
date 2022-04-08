@@ -2,7 +2,6 @@
   <swiper
     :slides-per-view="1"
     :space-between="-1"
-    :breakpoints="breakpoints"
     navigation
     :loop="true"
     :autoplay="{

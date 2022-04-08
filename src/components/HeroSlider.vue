@@ -2,8 +2,6 @@
   <swiper
     :slides-per-view="1"
     :space-between="-1"
-    :breakpoints="breakpoints"
-    navigation
     :loop="true"
     :autoplay="{
       delay: 2500,
@@ -13,19 +11,45 @@
     @slideChange="onSlideChange"
     class="default-slider box-border"
   >
-    <swiper-slide
-      v-for="(n, i) in 7"
-      :key="i"
-      class="border-t border-b border-l"
-      :class="{ 'border-r': i == 6 }"
-    >
-      <product />
+    <swiper-slide v-for="(n, i) in 1" :key="i">
+      <!-- <product /> -->
+      <div
+        class="relative"
+        :style="{
+          'background-image': `url('https://velikorodnov.com/wordpress/shopmewp/classic/wp-content/uploads/layerslider/Homepage-1/home_slide_8.jpg')`,
+          height: '60vh',
+          'background-size': 'cover',
+          'background-repeat': 'no-repeat',
+          'background-position': 'center',
+        }"
+      >
+        <div
+          class="absolute w-10/12 top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-center"
+        >
+          <h1 class="font-extrabold text-6xl text-white w-full">
+            Have a Question?
+          </h1>
+          <h1 class="my-5 text-white text-3xl font-[300]">
+            Our Pharmacists <br />Are Ready to Help You!
+          </h1>
+          <button
+            type="button"
+            class="whitespace-nowrap text-white bg-[#4ac4fa] hover:bg-[#018bc8] focus:ring-4 focus:ring-blue-300 font-medium rounded px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+          >
+            Contact Us Now!
+          </button>
+        </div>
+        <!-- <img
+          src="https://velikorodnov.com/wordpress/shopmewp/classic/wp-content/uploads/layerslider/Homepage-1/home_slide_8.jpg"
+          alt=""
+        /> -->
+      </div>
     </swiper-slide>
   </swiper>
 </template>
 
 <style scoped>
-.swiper {
+/* .swiper {
   overflow: visible;
 }
 :deep .swiper-button-prev,
@@ -50,7 +74,7 @@
   font-size: 10px;
   font-weight: bold;
   padding: 5px;
-}
+} */
 
 /* .default-slider .swiper-slide {
   display: flex;

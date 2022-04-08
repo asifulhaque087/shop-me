@@ -3,9 +3,18 @@ import TopHeader from "./components/TopHeader.vue";
 import MiddleHeader from "./components/MiddleHeader.vue";
 import BottomHeader from "./components/BottomHeader.vue";
 import ExampleSlider from "./components/ExampleSlider.vue";
+import TodaysDeal from "./components/TodaysDeal.vue";
+import HeroSlider from "./components/HeroSlider.vue";
 
 export default {
-  components: { MiddleHeader, TopHeader, BottomHeader, ExampleSlider },
+  components: {
+    MiddleHeader,
+    TopHeader,
+    BottomHeader,
+    ExampleSlider,
+    TodaysDeal,
+    HeroSlider,
+  },
 };
 </script>
 
@@ -18,21 +27,33 @@ export default {
     <div class="flex px-[8%] gap-10">
       <!-- left -->
       <div class="w-[300px] shrink-0 bg-red-500">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nam vel
-        quisquam totam incidunt exercitationem voluptatem nisi ea est nihil
-        fugit quos, voluptate impedit facilis a laborum placeat repellat optio
-        sit eveniet nesciunt suscipit mollitia illum. Obcaecati dignissimos
-        provident quisquam magni neque itaque debitis adipisci, porro saepe
-        necessitatibus assumenda ipsa sit facere ad. Inventore commodi vitae
-        quisquam repellendus. Minima maxime hic molestias provident tempore sit
-        suscipit, magni nobis porro itaque? Nulla suscipit quasi eaque quos,
-        libero natus voluptatem ducimus nostrum ea explicabo quibusdam
-        necessitatibus voluptate officiis vitae tenetur temporibus, nihil culpa
-        hic sed error voluptates, minus voluptatibus porro quas! Adipisci.
+        <!-- todays deal -->
+        <!-- <todays-deal /> -->
       </div>
       <!-- right -->
       <div class="grow shrink basis-0 overflow-hidden">
-        <div class="mt-8">
+        <div class="">
+          <!-- hero -->
+          <hero-slider />
+          <!-- banner -->
+          <div class="flex items-center gap-5 py-10">
+            <!-- left -->
+            <div>
+              <img
+                src="https://velikorodnov.com/wordpress/shopmewp/classic/wp-content/uploads/2015/04/banner_img_1.jpg"
+                alt=""
+              />
+            </div>
+            <!-- right -->
+
+            <div>
+              <img
+                src="https://velikorodnov.com/wordpress/shopmewp/classic/wp-content/uploads/2015/04/banner_img_2.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <!-- Medicine & Health -->
           <example-slider />
         </div>
       </div>
