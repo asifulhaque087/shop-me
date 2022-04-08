@@ -4,7 +4,7 @@ export default {};
 
 <template>
   <div
-    class="flex flex-col w-full border px-5 md:flex-row md:justify-between md:px-[8%] mb-10"
+    class="bg-white flex flex-col w-full border px-5 md:flex-row md:justify-between md:px-[8%]"
   >
     <!-- 1st -->
     <div

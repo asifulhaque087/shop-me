@@ -3,7 +3,7 @@ export default {};
 </script>
 <template>
   <div
-    class="flex flex-col gap-2 items-center md:flex-row md:justify-between md:w-full px-[8%] py-8 md:gap-20"
+    class="bg-white flex flex-col gap-2 items-center md:flex-row md:justify-between md:w-full px-[8%] py-8 md:gap-20"
   >
     <!-- left -->
     <div>

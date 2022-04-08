@@ -24,7 +24,7 @@ export default {
     <top-header />
     <middle-header />
     <bottom-header />
-    <div class="flex px-[8%] gap-10">
+    <div class="flex px-[8%] gap-10 pt-10">
       <!-- left -->
       <div class="w-[300px] shrink-0 bg-red-500">
         <!-- todays deal -->
@@ -54,7 +54,9 @@ export default {
             </div>
           </div>
           <!-- Medicine & Health -->
-          <example-slider />
+          <div>
+            <example-slider />
+          </div>
         </div>
       </div>
     </div>
@@ -72,6 +74,7 @@ export default {
   color: #2c3e50;
   margin-top: 60px; */
   min-height: 300vh;
+  background-color: #f8f8f8;
 }
 </style>
 

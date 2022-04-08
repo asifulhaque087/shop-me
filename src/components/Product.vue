@@ -4,7 +4,7 @@ export default {
 };
 </script>
 <template>
-  <div class="px-8">
+  <div class="px-8 bg-white">
     <a href="{`/product/${id}`}">
       <div class="rounded-tl rounded-tr mb-1 relative cursor-pointer">
         <span
