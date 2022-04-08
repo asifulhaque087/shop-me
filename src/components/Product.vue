@@ -5,7 +5,7 @@ export default {
 </script>
 <template>
   <div
-    class="card border-t border-b border-l px-5"
+    class="card border-t border-b border-l px-10"
     :class="location ? 'border-r' : 'null'"
   >
     <a href="{`/product/${id}`}">
