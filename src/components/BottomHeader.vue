@@ -3,9 +3,13 @@ export default {};
 </script>
 
 <template>
-  <div class="flex flex-col w-full mt-10 border px-5">
+  <div
+    class="flex flex-col w-full border px-5 md:flex-row md:justify-between md:px-[8%] mb-10"
+  >
     <!-- 1st -->
-    <div class="grid place-items-center border-l border-r border-b border-gray-200 p-4">
+    <div
+      class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-4 md:grow"
+    >
       <svg
         style="
           fill: #444444;
@@ -25,9 +29,23 @@ export default {};
         ></path>
       </svg>
     </div>
+    <!-- 1st er childrens -->
+    <div
+      class="grid place-items-center px-5 py-4 border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 md:grow"
+    >
+      <span>My Account</span>
+    </div>
+
+    <div
+      class="grid place-items-center px-5 py-4 border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 md:grow"
+    >
+      <span>My Account</span>
+    </div>
 
     <!-- 2nd -->
-    <div class="grid place-items-center border-l border-r border-b border-gray-200  p-4">
+    <div
+      class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-4 md:grow"
+    >
       <svg
         style="
           fill: #444444;
@@ -49,7 +67,9 @@ export default {};
     </div>
 
     <!-- 3rd -->
-    <div class="grid place-items-center border-l border-r border-b border-gray-200  p-4">
+    <div
+      class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-4 md:grow"
+    >
       <svg
         style="
           fill: #444444;
@@ -71,7 +91,9 @@ export default {};
     </div>
 
     <!-- 4th -->
-    <div class="grid place-items-center border-l border-r border-b border-gray-200  p-4">
+    <div
+      class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-4 md:grow"
+    >
       <svg
         style="
           fill: #444444;
@@ -93,7 +115,9 @@ export default {};
     </div>
 
     <!-- 5th -->
-    <div class="grid place-items-center border-l border-r border-b border-gray-200  p-4">
+    <div
+      class="grid place-items-center border-l border-r md:border-l md:border-r border-gray-200 p-4 md:grow"
+    >
       <svg
         style="
           fill: #444444;
@@ -113,6 +137,5 @@ export default {};
         ></path>
       </svg>
     </div>
-
   </div>
 </template>
