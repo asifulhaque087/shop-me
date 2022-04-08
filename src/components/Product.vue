@@ -15,7 +15,8 @@ export default {
         >
           no sell
         </span>
-        <div class="">
+
+        <div class="relative group">
           <img
             src="https://velikorodnov.com/wordpress/shopmewp/classic/wp-content/uploads/2015/04/1-5-350x350.jpg"
             height="1080"
@@ -23,6 +24,13 @@ export default {
             alt="product"
             class=""
           />
+
+          <button
+            type="button"
+            class="hidden group-hover:block whitespace-nowrap absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-white bg-stone-400 hover:bg-stone-500 focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+          >
+            Quick View
+          </button>
         </div>
         <div class="py-2">
           <span class="capitalize text-gray-500 text-xs py-3">
@@ -38,9 +46,7 @@ export default {
               </span>
             </div>
             <!-- right -->
-            <div class="flex items-center ">
-
-
+            <div class="flex items-center">
               <!-- 1st -->
               <span>
                 <svg
@@ -285,10 +291,6 @@ export default {
                   </g>
                 </svg>
               </span>
-
-
-
-
             </div>
           </div>
         </div>
