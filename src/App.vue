@@ -3,9 +3,10 @@
 import TopHeader from './components/TopHeader.vue';
 import MiddleHeader from './components/MiddleHeader.vue';
 import BottomHeader from './components/BottomHeader.vue';
+import ExampleSlider from './components/ExampleSlider.vue';
 
 export default {
-  components: { MiddleHeader, TopHeader, BottomHeader },
+  components: { MiddleHeader, TopHeader, BottomHeader, ExampleSlider },
 
 }
 
@@ -17,6 +18,7 @@ export default {
     <top-header />
     <middle-header />
     <bottom-header/>
+    <example-slider/>
 
   </div>
 </template>
@@ -31,6 +33,7 @@ export default {
   /* text-align: center;
   color: #2c3e50;
   margin-top: 60px; */
+  min-height: 300vh;
 }
 </style>
 
