@@ -35,6 +35,7 @@
   border: 1px solid rgba(0, 0, 0, 0.05);
   height: auto;
   top: -2%;
+  background-color: white;
 }
 
 :deep .swiper-button-prev {

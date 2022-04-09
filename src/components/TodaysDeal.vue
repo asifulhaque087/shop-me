@@ -4,29 +4,22 @@
     :space-between="-1"
     navigation
     :loop="true"
-    :autoplay="{
-      delay: 2500,
-      disableOnInteraction: true,
-    }"
     @swiper="onSwiper"
     @slideChange="onSlideChange"
-    class="default-slider box-border"
   >
-    <swiper-slide
-      v-for="(n, i) in 7"
-      :key="i"
-      class="border-t border-b border-l"
-      :class="{ 'border-r': i == 6 }"
-    >
-      <product />
+    <swiper-slide v-for="(n, i) in 1" :key="i">
+      <product class="border" />
     </swiper-slide>
   </swiper>
 </template>
 
 <style scoped>
 .swiper {
+  /* overflow-x: hidden;
+  overflow-y: visible; */
   overflow: visible;
 }
+
 :deep .swiper-button-prev,
 :deep .swiper-button-next {
   color: black;
@@ -37,11 +30,11 @@
 }
 
 :deep .swiper-button-prev {
-  left: 90%;
+  left: 80%;
 }
 
 :deep .swiper-button-next {
-  left: 95%;
+  left: 90%;
 }
 
 :deep .swiper-button-next:after,
@@ -50,37 +43,6 @@
   font-weight: bold;
   padding: 5px;
 }
-
-/* .default-slider .swiper-slide {
-  display: flex;
-  height: 300px !important;
-  justify-content: center;
-  align-items: center;
-  color: #000;
-  font-size: 24px;
-  font-weight: 700;
-}
-.swiper-slide:nth-child(1n) {
-  background-color: palevioletred;
-}
-.swiper-slide:nth-child(2n) {
-  background-color: skyblue;
-}
-.swiper-slide:nth-child(3n) {
-  background-color: peru;
-}
-.swiper-slide:nth-child(4n) {
-  background-color: cadetblue;
-}
-.swiper-slide:nth-child(5n) {
-  background-color: plum;
-}
-.swiper-slide:nth-child(6n) {
-  background-color: goldenrod;
-}
-.swiper-slide:nth-child(7n) {
-  background-color: palegreen;
-} */
 </style>
 
 <script>
