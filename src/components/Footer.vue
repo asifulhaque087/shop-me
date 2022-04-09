@@ -85,6 +85,7 @@
         </p>
       </div>
 
+      <!-- contact us -->
       <div class="">
         <h1 class="text-md text-[#333]">Contact Us</h1>
 
@@ -164,7 +165,33 @@
           </div>
         </div>
       </div>
+      <!-- social links -->
+      <div>
+        <h1 class="text-md text-[#333]">Social Links</h1>
+        <p class="text-sm text-[#777] mt-4">
+          Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing
+          aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euis- mod in
+          auctor ut, ligula. Aliquam dapibus tincidunt metus.
+        </p>
+      </div>
+      <!-- newsletter -->
+      <div>
+        <h1 class="text-md text-[#333]">Sign Up to Our Newsletter</h1>
+        <p class="text-sm text-[#777] mt-4">
+          Sign up our newsletter and get exclusive deals you will not find
+          anywhere else straight to your inbox!
+        </p>
+        <!-- input will be here -->
+      </div>
     </main>
+    <!--  -->
+    <div>
+      <!-- payment methods icon -->
+      <div>
+
+      </div>
+      <p></p>
+    </div>
   </div>
 </template>
 
