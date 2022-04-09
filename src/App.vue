@@ -5,6 +5,7 @@ import BottomHeader from "./components/BottomHeader.vue";
 import ExampleSlider from "./components/ExampleSlider.vue";
 import TodaysDeal from "./components/TodaysDeal.vue";
 import HeroSlider from "./components/HeroSlider.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   components: {
@@ -14,6 +15,7 @@ export default {
     ExampleSlider,
     TodaysDeal,
     HeroSlider,
+    Footer,
   },
 };
 </script>
@@ -24,22 +26,18 @@ export default {
     <top-header />
     <middle-header />
     <bottom-header />
-    <div class="flex px-[8%] gap-10 pt-10">
+    <div class="flex flex-col md:flex-row px-[8%] gap-10 pt-10">
       <!-- left -->
-      <div class="w-[300px] overflow-hidden shrink-0 ">
+      <div class="w-[300px] overflow-hidden shrink-0">
         <!-- todays deal -->
         <div class="pt-10">
           <todays-deal />
         </div>
         <!-- Bestseller   Products -->
-        <div>
-          
-        </div>
-
-
+        <div></div>
       </div>
       <!-- right -->
-      <div class="grow shrink basis-0 overflow-hidden">
+      <div class="grow shrink overflow-hidden">
         <div class="">
           <!-- hero -->
           <hero-slider />
@@ -97,6 +95,8 @@ export default {
         </div>
       </div>
     </div>
+    <!-- footer -->
+    <Footer />
   </div>
 </template>
 
