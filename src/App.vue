@@ -7,8 +7,8 @@ import TodaysDeal from "./components/TodaysDeal.vue";
 import HeroSlider from "./components/HeroSlider.vue";
 import Footer from "./components/Footer.vue";
 import Home from "./pages/Home.vue";
-import ShoppingCart from './pages/ShoppingCart.vue';
-import Profile from './pages/Profile.vue';
+import ShoppingCart from "./pages/ShoppingCart.vue";
+import Profile from "./pages/Profile.vue";
 
 export default {
   components: {
@@ -21,7 +21,7 @@ export default {
     Footer,
     Home,
     ShoppingCart,
-    Profile
+    Profile,
   },
 };
 </script>
@@ -33,7 +33,8 @@ export default {
     <middle-header />
     <bottom-header />
     <!-- <Home/> -->
-    <profile/>
+    <!-- <profile/> -->
+    <router-view />
     <!-- <shopping-cart/> -->
     <!-- footer -->
     <Footer />
