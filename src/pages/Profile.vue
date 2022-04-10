@@ -121,7 +121,7 @@
               class="flex items-center space-x-2 font-semibold text-gray-900 leading-8"
             >
               <span clas="text-green-500">
-                <svg
+                <!-- <svg
                   class="h-5"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -134,9 +134,14 @@
                     stroke-width="2"
                     d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                   />
-                </svg>
+                </svg> -->
+                <!-- <fa icon="coffee" /> -->
+                <!-- <fa :icon="['fas', 'coffee']" />
+                <fa :icon="['fab', 'youtube']" /> -->
+
+                <fa icon="user" />
               </span>
-              <span class="tracking-wide">About</span>
+              <span class="tracking-wide">About </span>
             </div>
             <div class="text-gray-700">
               <div class="grid md:grid-cols-2 text-sm">
