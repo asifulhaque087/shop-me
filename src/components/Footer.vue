@@ -185,12 +185,61 @@
       </div>
     </main>
     <!--  -->
-    <div>
+    <div class="w-96 mx-auto mt-16">
       <!-- payment methods icon -->
-      <div>
+      <div class="grid grid-cols-7">
+        <div>
+          <img
+            src="https://velikorodnov.com/wordpress/shopmewp/classic/wp-content/uploads/2017/11/payment_img_1.png"
+            alt=""
+          />
+        </div>
 
+        <div>
+          <img
+            src="https://velikorodnov.com/wordpress/shopmewp/classic/wp-content/uploads/2017/11/payment_img_1.png"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <img
+            src="https://velikorodnov.com/wordpress/shopmewp/classic/wp-content/uploads/2017/11/payment_img_1.png"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <img
+            src="https://velikorodnov.com/wordpress/shopmewp/classic/wp-content/uploads/2017/11/payment_img_1.png"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <img
+            src="https://velikorodnov.com/wordpress/shopmewp/classic/wp-content/uploads/2017/11/payment_img_1.png"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <img
+            src="https://velikorodnov.com/wordpress/shopmewp/classic/wp-content/uploads/2017/11/payment_img_1.png"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <img
+            src="https://velikorodnov.com/wordpress/shopmewp/classic/wp-content/uploads/2017/11/payment_img_1.png"
+            alt=""
+          />
+        </div>
       </div>
-      <p></p>
+      <p class="text-[#777] text-sm text-center">
+        © 2021 ShopMe Pharmacy All Rights Reserved.
+      </p>
     </div>
   </div>
 </template>
