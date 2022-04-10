@@ -167,13 +167,13 @@
         <h1 class="text-2xl font-bold text-[#333] mb-3">Discount Codes</h1>
         <div class="bg-white border rounded p-4">
           <label
-            for="email"
+            for="coupon"
             class="block mb-2 text-sm text-[#777] dark:text-gray-300"
             >Enter your coupon code if you have one.</label
           >
           <input
-            type="email"
-            id="email"
+            type="text"
+            id="coupon"
             class="mb-4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="Coupon Code"
           />
@@ -233,7 +233,7 @@
       </h1>
       <div class="bg-white rounded border">
         <div class="w-full max-w-xs">
-          <product class="border-r"/>
+          <product class="border-r" />
         </div>
       </div>
     </div>

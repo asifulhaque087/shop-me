@@ -31,7 +31,6 @@ export default {};
         <div class="lg:grow">
           <input
             type="text"
-            id="large-input"
             class="block p-2 w-full text-gray-900 bg-gray-50 border-0 border-b-2 lg:border-b-0 lg:border-r-2 border-cyan-400 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           />
         </div>
@@ -39,7 +38,6 @@ export default {};
         <div class="lg:mt-0 lg:grow">
           <input
             type="text"
-            id="large-input"
             class="block p-2 w-full text-gray-900 bg-gray-50 border-0 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           />
         </div>
