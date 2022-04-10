@@ -1,6 +1,3 @@
-<script>
-export default {};
-</script>
 <template>
   <div
     class="bg-white flex flex-col gap-2 items-center md:flex-row md:justify-between md:w-full px-[8%] py-8 md:gap-20"
@@ -31,14 +28,14 @@ export default {};
         <div class="lg:grow">
           <input
             type="text"
-            class="block p-2 w-full text-gray-900 bg-gray-50 border-0 border-b-2 lg:border-b-0 lg:border-r-2 border-cyan-400 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            class="block p-2 w-full text-gray-900 bg-gray-50 border-0 border-b-2 lg:border-b-0 lg:border-r-2 border-cyan-400 sm:text-md"
           />
         </div>
 
         <div class="lg:mt-0 lg:grow">
           <input
             type="text"
-            class="block p-2 w-full text-gray-900 bg-gray-50 border-0 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            class="block p-2 w-full text-gray-900 bg-gray-50 border-0 sm:text-md"
           />
         </div>
       </div>
@@ -46,11 +43,13 @@ export default {};
       <!-- right -->
       <div class="bg-cyan-400 grid place-items-center px-2">
         <div>
-          <img
-            src="https://img.icons8.com/ios-glyphs/30/000000/search--v1.png"
-          />
+          <fa icon="search" class="text-white text-2xl" />
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {};
+</script>

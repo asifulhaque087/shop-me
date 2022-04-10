@@ -92,24 +92,7 @@
         <div class="flex flex-col gap-3">
           <div class="flex items-center gap-2 mt-4">
             <span>
-              <svg
-                style="
-                  fill: #018bc8;
-                  stroke: #018bc8;
-                  display: inline-block;
-                  vertical-align: middle;
-                "
-                width="16px"
-                height="16px"
-                version="1.1"
-                viewBox="0 0 100 100"
-                data-reactid=".2a895ovdqxs.4.0.0.0.0.0"
-              >
-                <path
-                  d="m12 20v8h76v-8zm0 26v8h76v-8zm0 26v8h76v-8z"
-                  data-reactid=".2a895ovdqxs.4.0.0.0.0.0.0"
-                ></path>
-              </svg>
+              <fa icon="map-location" class="text-[#4ac4fa]" />
             </span>
             <p class="text-sm text-[#777] pt-1">
               8901 Marmora Road, Glasgow, D04 89GR.
@@ -118,48 +101,14 @@
 
           <div class="flex items-center gap-2">
             <span>
-              <svg
-                style="
-                  fill: #018bc8;
-                  stroke: #018bc8;
-                  display: inline-block;
-                  vertical-align: middle;
-                "
-                width="16px"
-                height="16px"
-                version="1.1"
-                viewBox="0 0 100 100"
-                data-reactid=".2a895ovdqxs.4.0.0.0.0.0"
-              >
-                <path
-                  d="m12 20v8h76v-8zm0 26v8h76v-8zm0 26v8h76v-8z"
-                  data-reactid=".2a895ovdqxs.4.0.0.0.0.0.0"
-                ></path>
-              </svg>
+              <fa icon="phone" class="text-[#4ac4fa]" />
             </span>
-            <p class="text-sm text-[#777] pt-1">800-559-65-80</p>
+            <p class="text-sm text-[#777]">800-559-65-80</p>
           </div>
 
           <div class="flex items-center gap-2">
             <span>
-              <svg
-                style="
-                  fill: #018bc8;
-                  stroke: #018bc8;
-                  display: inline-block;
-                  vertical-align: middle;
-                "
-                width="16px"
-                height="16px"
-                version="1.1"
-                viewBox="0 0 100 100"
-                data-reactid=".2a895ovdqxs.4.0.0.0.0.0"
-              >
-                <path
-                  d="m12 20v8h76v-8zm0 26v8h76v-8zm0 26v8h76v-8z"
-                  data-reactid=".2a895ovdqxs.4.0.0.0.0.0.0"
-                ></path>
-              </svg>
+              <fa icon="mail-reply" class="text-[#4ac4fa]" />
             </span>
             <p class="text-sm text-[#777] pt-1">info@companyname.com</p>
           </div>
