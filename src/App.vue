@@ -8,6 +8,7 @@ import HeroSlider from "./components/HeroSlider.vue";
 import Footer from "./components/Footer.vue";
 import Home from "./pages/Home.vue";
 import ShoppingCart from './pages/ShoppingCart.vue';
+import Profile from './pages/Profile.vue';
 
 export default {
   components: {
@@ -19,7 +20,8 @@ export default {
     HeroSlider,
     Footer,
     Home,
-    ShoppingCart
+    ShoppingCart,
+    Profile
   },
 };
 </script>
@@ -31,7 +33,8 @@ export default {
     <middle-header />
     <bottom-header />
     <!-- <Home/> -->
-    <shopping-cart/>
+    <profile/>
+    <!-- <shopping-cart/> -->
     <!-- footer -->
     <Footer />
   </div>
