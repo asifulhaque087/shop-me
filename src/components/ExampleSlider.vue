@@ -53,6 +53,15 @@
   padding: 5px;
 }
 
+@media (max-width: 768px) {
+  :deep .swiper-button-prev {
+    left: 80%;
+  }
+  :deep .swiper-button-next {
+    left: 90%;
+  }
+}
+
 /* .default-slider .swiper-slide {
   display: flex;
   height: 300px !important;
