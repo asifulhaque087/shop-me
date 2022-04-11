@@ -26,14 +26,14 @@ export default {};
     </div>
 
     <div
-      class="hidden md:grid place-items-center px-5 py-4 border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 md:grow"
+      class="grid place-items-center px-5 py-4 border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 md:grow"
     >
       <span data-dropdown-toggle="pages" class="cursor-pointer">Pages</span>
     </div>
     <!-- dropdown -->
     <div
       id="pages"
-      class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+      class="hidden z-20 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
     >
       <ul
         class="py-1 text-sm text-gray-700 dark:text-gray-200"
