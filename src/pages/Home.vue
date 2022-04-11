@@ -6,14 +6,25 @@
       <div class="pt-10">
         <todays-deal />
       </div>
+
       <!-- Bestseller Products -->
       <div class="pt-10">
         <best-seller />
       </div>
-      <!-- Catgories -->
 
+      <!-- Catgories -->
       <div class="pt-10">
         <cat-sidebar />
+      </div>
+
+      <!-- advertise-->
+      <div class="pt-10">
+        <ad-sidebar />
+      </div>
+
+      <!-- compare products-->
+      <div class="pt-10">
+        <compare-products />
       </div>
     </div>
     <!-- right -->
@@ -76,8 +87,10 @@
 </template>
 
 <script>
+import AdSidebar from "../components/AdSidebar.vue";
 import BestSeller from "../components/BestSeller.vue";
-import CatSidebar from '../components/CatSidebar.vue';
+import CatSidebar from "../components/CatSidebar.vue";
+import CompareProducts from '../components/CompareProducts.vue';
 import ExampleSlider from "../components/ExampleSlider.vue";
 import HeroSlider from "../components/HeroSlider.vue";
 import TodaysDeal from "../components/TodaysDeal.vue";
@@ -89,6 +102,8 @@ export default {
     HeroSlider,
     BestSeller,
     CatSidebar,
+    AdSidebar,
+    CompareProducts,
   },
 };
 </script>
