@@ -4,37 +4,44 @@ export default {};
 
 <template>
   <div
-    class="bg-white flex flex-col w-full border px-[8%] md:flex-row md:justify-between md:px-[8%]"
+    class="bg-white flex flex-col w-full border px-[8%] md:flex-row md:justify-between"
   >
     <!-- 1st -->
     <div
-      class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-4 md:grow"
+      class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-1 md:grow"
     >
       <fa icon="bars" class="text-[#b2b2b2] text-2xl" />
     </div>
     <!-- 1st er childrens -->
     <div
-      class="hidden md:grid place-items-center px-5 py-4 border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 md:grow"
+      class="hidden md:grid place-items-center px-5 py-1 border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 md:grow"
     >
       <span>Home</span>
     </div>
 
     <div
-      class="hidden md:grid place-items-center px-5 py-4 border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 md:grow"
+      class="hidden md:grid place-items-center px-5 py-1 border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 md:grow"
     >
       <span>My Account</span>
     </div>
 
+    <div
+      class="hidden md:grid place-items-center px-5 py-1 border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 md:grow"
+    >
+      <span>Pages</span>
+    </div>
+
+
     <!-- 2nd -->
     <div
-      class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-4 md:grow"
+      class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-1 md:grow"
     >
       <fa icon="list" class="text-[#b2b2b2] text-2xl" />
     </div>
 
     <!-- 3rd -->
     <div
-      class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-4 md:grow"
+      class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-1 md:grow"
     >
       <div class="relative">
         <span
@@ -48,7 +55,7 @@ export default {};
 
     <!-- 4th -->
     <div
-      class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-4 md:grow"
+      class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-1 md:grow"
     >
       <div class="relative">
         <span
@@ -65,7 +72,7 @@ export default {};
 
     <!-- 5th -->
     <div
-      class="grid border-l border-r md:border-l md:border-r border-gray-200 p-4 md:grow"
+      class="grid border-l border-r md:border-l md:border-r border-gray-200 p-1 md:grow"
     >
       <div class="flex items-center gap-3">
         <!-- left -->
