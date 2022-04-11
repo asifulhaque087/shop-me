@@ -19,8 +19,17 @@ import {
   faCaretDown,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
-
-// import { faYoutube } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebookSquare,
+  faFlickr,
+  faGooglePlusSquare,
+  faInstagramSquare,
+  faLinkedin,
+  faPinterestSquare,
+  faTwitterSquare,
+  faVimeoSquare,
+  faYoutubeSquare,
+} from "@fortawesome/free-brands-svg-icons";
 
 library.add(
   faUser,
@@ -33,7 +42,16 @@ library.add(
   faPhone,
   faEnvelope,
   faArrowsUpDownLeftRight,
-  faCaretDown
+  faCaretDown,
+  faFacebookSquare,
+  faTwitterSquare,
+  faGooglePlusSquare,
+  faPinterestSquare,
+  faYoutubeSquare,
+  faVimeoSquare,
+  faInstagramSquare,
+  faLinkedin,
+  faFlickr
 );
 
 createApp(App).use(router).component("fa", FontAwesomeIcon).mount("#app");

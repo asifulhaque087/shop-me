@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col md:flex-row px-[8%] gap-10 pt-10">
+  <div class="flex flex-col md:flex-row px-[8%] gap-10 pt-10 pb-20">
     <!-- left -->
-    <div class="w-[300px] overflow-hidden shrink-0">
+    <div class="w-full max-w-[260px]  overflow-hidden shrink-0">
       <!-- todays deal -->
       <div class="pt-10">
         <todays-deal />
