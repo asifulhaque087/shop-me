@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-2xl font-bold text-[#ff4557] mb-3">Today's Deal</h1>
+    <h1 class="text-2xl font-bold text-[#333] mb-3">Testimonials</h1>
     <div>
       <swiper
         :slides-per-view="1"
@@ -11,7 +11,7 @@
         @slideChange="onSlideChange"
       >
         <swiper-slide v-for="(n, i) in 1" :key="i">
-          <product class="border" />
+          <testimonial  />
         </swiper-slide>
       </swiper>
     </div>
@@ -20,6 +20,8 @@
 
 <style scoped>
 .swiper {
+  /* overflow-x: hidden;
+  overflow-y: visible; */
   overflow: visible;
 }
 
@@ -29,7 +31,7 @@
   position: absolute;
   border: 1px solid rgba(0, 0, 0, 0.05);
   height: auto;
-  top: -6%;
+  top: -7%;
   background-color: white;
 }
 
@@ -51,19 +53,19 @@
 
 <script>
 import SwiperCore, { Navigation, Autoplay } from "swiper";
-import Product from "./Product.vue";
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from "swiper/vue";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
+import Testimonial from "./Testimonial.vue";
 SwiperCore.use([Navigation, Autoplay]);
 export default {
   components: {
     Swiper,
     SwiperSlide,
-    Product,
+    Testimonial,
   },
   data() {
     return {

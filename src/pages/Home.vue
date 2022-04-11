@@ -3,7 +3,7 @@
     <!-- left -->
     <div class="w-full max-w-[260px] overflow-hidden shrink-0">
       <!-- todays deal -->
-      <div class="pt-10">
+      <div>
         <todays-deal />
       </div>
 
@@ -25,6 +25,11 @@
       <!-- compare products-->
       <div class="pt-10">
         <compare-products />
+      </div>
+
+      <!-- testimonials -->
+      <div class="pt-10">
+        <testimonials />
       </div>
     </div>
     <!-- right -->
@@ -90,9 +95,10 @@
 import AdSidebar from "../components/AdSidebar.vue";
 import BestSeller from "../components/BestSeller.vue";
 import CatSidebar from "../components/CatSidebar.vue";
-import CompareProducts from '../components/CompareProducts.vue';
+import CompareProducts from "../components/CompareProducts.vue";
 import ExampleSlider from "../components/ExampleSlider.vue";
 import HeroSlider from "../components/HeroSlider.vue";
+import Testimonials from "../components/Testimonials.vue";
 import TodaysDeal from "../components/TodaysDeal.vue";
 
 export default {
@@ -104,6 +110,7 @@ export default {
     CatSidebar,
     AdSidebar,
     CompareProducts,
+    Testimonials,
   },
 };
 </script>
