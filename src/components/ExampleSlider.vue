@@ -7,7 +7,7 @@
     :loop="true"
     :autoplay="{
       delay: 2500,
-      disableOnInteraction: true,
+      disableOnInteraction: false,
     }"
     @swiper="onSwiper"
     @slideChange="onSlideChange"
