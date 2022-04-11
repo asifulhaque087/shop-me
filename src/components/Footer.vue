@@ -94,7 +94,7 @@
             <span>
               <fa icon="map-location" class="text-[#4ac4fa]" />
             </span>
-            <p class="text-sm text-[#777] pt-1">
+            <p class="text-sm text-[#777]">
               8901 Marmora Road, Glasgow, D04 89GR.
             </p>
           </div>
@@ -108,9 +108,9 @@
 
           <div class="flex items-center gap-2">
             <span>
-              <fa icon="mail-reply" class="text-[#4ac4fa]" />
+              <fa icon="envelope" class="text-[#4ac4fa]" />
             </span>
-            <p class="text-sm text-[#777] pt-1">info@companyname.com</p>
+            <p class="text-sm text-[#777]">info@companyname.com</p>
           </div>
         </div>
       </div>

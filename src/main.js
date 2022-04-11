@@ -15,6 +15,9 @@ import {
   faMapLocation,
   faPhone,
   faMailReply,
+  faArrowsUpDownLeftRight,
+  faCaretDown,
+  faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 
 // import { faYoutube } from "@fortawesome/free-brands-svg-icons";
@@ -28,7 +31,9 @@ library.add(
   faSearch,
   faMapLocation,
   faPhone,
-  faMailReply
+  faEnvelope,
+  faArrowsUpDownLeftRight,
+  faCaretDown
 );
 
 createApp(App).use(router).component("fa", FontAwesomeIcon).mount("#app");

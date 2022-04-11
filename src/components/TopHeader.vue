@@ -1,47 +1,17 @@
 <template>
   <div
-    class="bg-gray-50 flex flex-col items-center gap-1 text-sm border-b py-1 md:flex-row md:justify-between px-[8%]"
+    class="text-[#333] bg-gray-50 flex flex-col items-center gap-1 text-sm border-b py-2 md:flex-row md:justify-between px-[8%]"
   >
     <!-- login -->
     <div data-modal-toggle="small-modal">Login</div>
     <!-- dropdown -->
     <button
       type="button"
-      class="focus:outline-none dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 flex items-center"
+      class="focus:outline-none dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 flex items-center gap-2"
     >
-      <svg
-        id="dropdownDefault"
-        data-dropdown-toggle="dropdown"
-        class="px-2 w-8 h-8 text-gray-600"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M19 9l-7 7-7-7"
-        ></path>
-      </svg>
+      <fa icon="caret-down" data-dropdown-toggle="dropdown" />
       <span class="text-[13px]"> USD </span>
-      <svg
-        id="dropdownDefault"
-        data-dropdown-toggle="dropdown2"
-        class="px-2 w-8 h-8 text-gray-600"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M19 9l-7 7-7-7"
-        ></path>
-      </svg>
+      <fa icon="caret-down" data-dropdown-toggle="dropdown2" />
     </button>
     <!-- Dropdown menu 1 -->
     <div
@@ -109,9 +79,7 @@
         <div
           class="flex justify-between items-center p-5 rounded-t border-b dark:border-gray-600"
         >
-          <h3
-            class="text-xl font-medium text-gray-900 dark:text-white"
-          >
+          <h3 class="text-xl font-medium text-gray-900 dark:text-white">
             Login
           </h3>
           <button

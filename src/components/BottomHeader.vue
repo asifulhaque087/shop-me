@@ -56,7 +56,10 @@ export default {};
         >
           0
         </span>
-        <fa icon="heart" class="text-[#4ac4fa] text-2xl relative" />
+        <fa
+          icon="arrows-up-down-left-right"
+          class="text-[#4ac4fa] text-2xl relative"
+        />
       </div>
     </div>
 
