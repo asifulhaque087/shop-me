@@ -31,6 +31,11 @@
       <div class="pt-10">
         <testimonials />
       </div>
+
+      <!-- testimonials -->
+      <div class="pt-10">
+        <blog-category />
+      </div>
     </div>
     <!-- right -->
     <div class="grow shrink overflow-hidden">
@@ -94,6 +99,7 @@
 <script>
 import AdSidebar from "../components/AdSidebar.vue";
 import BestSeller from "../components/BestSeller.vue";
+import BlogCategory from "../components/BlogCategory.vue";
 import CatSidebar from "../components/CatSidebar.vue";
 import CompareProducts from "../components/CompareProducts.vue";
 import ExampleSlider from "../components/ExampleSlider.vue";
@@ -111,6 +117,7 @@ export default {
     AdSidebar,
     CompareProducts,
     Testimonials,
+    BlogCategory,
   },
 };
 </script>
