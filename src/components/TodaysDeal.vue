@@ -29,7 +29,7 @@
   position: absolute;
   border: 1px solid rgba(0, 0, 0, 0.05);
   height: auto;
-  top: -6%;
+  top: -20px;
   background-color: white;
 }
 

@@ -34,7 +34,7 @@
   position: absolute;
   border: 1px solid rgba(0, 0, 0, 0.05);
   height: auto;
-  top: -2%;
+  top: -10px;
   background-color: white;
 }
 

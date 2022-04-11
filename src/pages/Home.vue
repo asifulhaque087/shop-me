@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col md:flex-row px-[8%] gap-10 pt-10 pb-20">
     <!-- left -->
-    <div class="w-full max-w-[260px] overflow-hidden shrink-0">
+    <div class="w-full max-w-full md:max-w-[260px] overflow-hidden shrink-0">
       <!-- todays deal -->
       <div>
         <todays-deal />
@@ -63,20 +63,20 @@
         <!-- Medicine & Health -->
         <div>
           <h1 class="text-2xl font-bold text-[#333] mb-3">Medicine & Health</h1>
-          <div class="flex gap-1">
+          <div class="flex flex-col md:flex-row mb-10 md:mb-0 md:gap-1">
             <span
-              class="rounded-t p-2 bg-white text-[#333] border-l border-r border-t hover:bg-[#018bc8] hover:text-white"
+              class="md:rounded-t p-2 bg-white text-[#333] border-l border-r border-t hover:bg-[#018bc8] hover:text-white"
             >
               Feminine Care
             </span>
             <span
-              class="rounded-t p-2 bg-white text-[#333] border-l border-r border-t"
+              class="md:rounded-t p-2 bg-white text-[#333] border-l border-r border-t"
             >
               Food Care
             </span>
 
             <span
-              class="rounded-t p-2 bg-white text-[#333] border-l border-r border-t"
+              class="md:rounded-t p-2 bg-white text-[#333] border-b border-l border-r border-t md:border-b-0"
             >
               Hair Care
             </span>

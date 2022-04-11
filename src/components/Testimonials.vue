@@ -20,8 +20,6 @@
 
 <style scoped>
 .swiper {
-  /* overflow-x: hidden;
-  overflow-y: visible; */
   overflow: visible;
 }
 
@@ -31,7 +29,7 @@
   position: absolute;
   border: 1px solid rgba(0, 0, 0, 0.05);
   height: auto;
-  top: -7%;
+  top: -20px;
   background-color: white;
 }
 
