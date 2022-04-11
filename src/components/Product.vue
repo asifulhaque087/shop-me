@@ -30,9 +30,9 @@ export default {
           </button>
         </div>
         <div class="py-2">
-          <span class="capitalize text-gray-500 text-xs py-3">
+          <p class="capitalize text-gray-500 text-xs py-3">
             Metus nulla facilisi, Original 24 fl oz
-          </span>
+          </p>
           <div class="py-2 flex justify-between">
             <!-- left -->
             <div>

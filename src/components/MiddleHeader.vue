@@ -4,11 +4,13 @@
   >
     <!-- left -->
     <div>
-      <img
-        class="md:w-[450px]"
-        src="https://velikorodnov.com/wordpress/shopmewp/classic/wp-content/uploads/2015/05/logo.png"
-        alt="logo"
-      />
+      <router-link to="/">
+        <img
+          class="md:w-[450px]"
+          src="https://velikorodnov.com/wordpress/shopmewp/classic/wp-content/uploads/2015/05/logo.png"
+          alt="logo"
+        />
+      </router-link>
     </div>
 
     <!-- center -->
