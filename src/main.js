@@ -23,6 +23,8 @@ import {
   faXmark,
   faMinus,
   faPlus,
+  faTrash,
+  faEye,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookSquare,
@@ -54,6 +56,8 @@ library.add(
   faXmark,
   faMinus,
   faPlus,
+  faTrash,
+  faEye,
   // brand
   faFacebookSquare,
   faTwitterSquare,
