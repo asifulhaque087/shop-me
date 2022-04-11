@@ -28,7 +28,35 @@ export default {};
     <div
       class="hidden md:grid place-items-center px-5 py-4 border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 md:grow"
     >
-      <span>My Account</span>
+      <span data-dropdown-toggle="pages" class="cursor-pointer">Pages</span>
+    </div>
+    <!-- dropdown -->
+    <div
+      id="pages"
+      class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+    >
+      <ul
+        class="py-1 text-sm text-gray-700 dark:text-gray-200"
+        aria-labelledby="dropdownDefault"
+      >
+        <li>
+          <router-link
+            to="/shopping-cart"
+            class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+          >
+            Shopping Cart
+          </router-link>
+        </li>
+
+        <li>
+          <router-link
+            to="/profile"
+            class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+          >
+            Profile
+          </router-link>
+        </li>
+      </ul>
     </div>
 
     <!-- 2nd -->
