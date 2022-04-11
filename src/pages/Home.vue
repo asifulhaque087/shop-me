@@ -6,8 +6,10 @@
       <div class="pt-10">
         <todays-deal />
       </div>
-      <!-- Bestseller   Products -->
-      <div></div>
+      <!-- Bestseller Products -->
+      <div class="pt-10">
+        <best-seller/>
+      </div>
     </div>
     <!-- right -->
     <div class="grow shrink overflow-hidden">
@@ -69,6 +71,7 @@
 </template>
 
 <script>
+import BestSeller from '../components/BestSeller.vue';
 import ExampleSlider from '../components/ExampleSlider.vue';
 import HeroSlider from '../components/HeroSlider.vue';
 import TodaysDeal from '../components/TodaysDeal.vue';
@@ -78,6 +81,7 @@ export default {
     ExampleSlider,
     TodaysDeal,
     HeroSlider,
+    BestSeller,
   },
 };
 </script>

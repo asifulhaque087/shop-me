@@ -18,6 +18,8 @@ import {
   faArrowsUpDownLeftRight,
   faCaretDown,
   faEnvelope,
+  faStar,
+  faStarHalfStroke,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookSquare,
@@ -43,6 +45,9 @@ library.add(
   faEnvelope,
   faArrowsUpDownLeftRight,
   faCaretDown,
+  faStar,
+  faStarHalfStroke,
+  // brand
   faFacebookSquare,
   faTwitterSquare,
   faGooglePlusSquare,
