@@ -14,13 +14,15 @@ import {
   faSearch,
   faMapLocation,
   faPhone,
-  faMailReply,
   faArrowsUpDownLeftRight,
   faCaretDown,
   faEnvelope,
   faStar,
   faStarHalfStroke,
   faQuoteRight,
+  faXmark,
+  faMinus,
+  faPlus,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookSquare,
@@ -49,6 +51,9 @@ library.add(
   faStar,
   faStarHalfStroke,
   faQuoteRight,
+  faXmark,
+  faMinus,
+  faPlus,
   // brand
   faFacebookSquare,
   faTwitterSquare,

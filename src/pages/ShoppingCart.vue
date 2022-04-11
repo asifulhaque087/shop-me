@@ -59,7 +59,7 @@
             data-label="Product Image"
           >
             <img
-              src=""
+              src="https://velikorodnov.com/wordpress/shopmewp/classic/wp-content/uploads/2015/04/2-100x100.jpg"
               alt="category"
               className="w-16  overflow-hidden shadow block ml-auto md:m-auto"
             />
@@ -94,24 +94,28 @@
             className="text-sm pr-6 whitespace-no-wrap text-gray-800 dark:text-gray-100 tracking-normal leading-4 block sm:table-cell text-right sm:text-center relative py-10 sm:py-0 border-b sm:border-b-0"
             data-label="Quantity"
           >
-            <button
-              type="button"
-              class="px-3 py-2 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            >
-              x
-            </button>
-            <button
-              type="button"
-              class="px-3 py-2 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            >
-              x
-            </button>
-            <button
-              type="button"
-              class="px-3 py-2 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            >
-              x
-            </button>
+            <div class="md:flex items-center justify-center">
+              <button
+                type="button"
+                class="border-l border-r border-t border-b px-3 py-2 text-center text-[#333] bg-transparent"
+              >
+                <fa icon="minus" class="font-medium" />
+              </button>
+
+              <button
+                type="button"
+                class="border-r border-t border-b cursor-text px-3 py-2 text-center text-[#777] bg-transparent"
+              >
+                1
+              </button>
+
+              <button
+                type="button"
+                class="border-r border-t border-b px-3 py-2 text-center text-[#333] bg-transparent"
+              >
+                <fa icon="plus" class="font-medium" />
+              </button>
+            </div>
           </td>
 
           <!-- total -->
@@ -127,24 +131,27 @@
             className="text-sm pr-6 whitespace-no-wrap text-gray-800 dark:text-gray-100 tracking-normal leading-4 block sm:table-cell text-right sm:text-center relative py-10 sm:py-0 border-b sm:border-b-0"
             data-label="Action"
           >
-            <button
-              type="button"
-              class="px-3 py-2 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            >
-              x
-            </button>
-            <button
-              type="button"
-              class="px-3 py-2 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            >
-              x
-            </button>
+            <div class="md:flex items-center gap-2 justify-center">
+              <button
+                type="button"
+                class="px-3 py-2 text-center text-white bg-[#777] rounded hover:bg-[#333]"
+              >
+                <fa icon="xmark" class="font-medium" />
+              </button>
+
+              <!-- <button
+                type="button"
+                class="px-3 py-2 text-center text-white bg-[#777] rounded hover:bg-[#333]"
+              >
+                <fa icon="xmark" class="font-medium" />
+              </button> -->
+            </div>
           </td>
         </tr>
       </tbody>
     </table>
     <div
-      class="flex items-center justify-between bg-white p-4 border-l border-r border-b"
+      class="flex gap-3 items-center justify-between flex-wrap bg-white p-4 border-l border-r border-b"
     >
       <button
         type="button"
@@ -227,7 +234,7 @@
       </div>
     </div>
     <!-- interested in -->
-    <div class="mt-10">
+    <div class="mt-10 mb-14">
       <h1 class="text-2xl font-bold text-[#333] mb-3">
         You May Be Interested in…
       </h1>
