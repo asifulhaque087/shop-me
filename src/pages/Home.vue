@@ -1,14 +1,19 @@
 <template>
   <div class="flex flex-col md:flex-row px-[8%] gap-10 pt-10 pb-20">
     <!-- left -->
-    <div class="w-full max-w-[260px]  overflow-hidden shrink-0">
+    <div class="w-full max-w-[260px] overflow-hidden shrink-0">
       <!-- todays deal -->
       <div class="pt-10">
         <todays-deal />
       </div>
       <!-- Bestseller Products -->
       <div class="pt-10">
-        <best-seller/>
+        <best-seller />
+      </div>
+      <!-- Catgories -->
+
+      <div class="pt-10">
+        <cat-sidebar />
       </div>
     </div>
     <!-- right -->
@@ -71,10 +76,11 @@
 </template>
 
 <script>
-import BestSeller from '../components/BestSeller.vue';
-import ExampleSlider from '../components/ExampleSlider.vue';
-import HeroSlider from '../components/HeroSlider.vue';
-import TodaysDeal from '../components/TodaysDeal.vue';
+import BestSeller from "../components/BestSeller.vue";
+import CatSidebar from '../components/CatSidebar.vue';
+import ExampleSlider from "../components/ExampleSlider.vue";
+import HeroSlider from "../components/HeroSlider.vue";
+import TodaysDeal from "../components/TodaysDeal.vue";
 
 export default {
   components: {
@@ -82,6 +88,7 @@ export default {
     TodaysDeal,
     HeroSlider,
     BestSeller,
+    CatSidebar,
   },
 };
 </script>
