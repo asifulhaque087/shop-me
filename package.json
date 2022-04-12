@@ -12,12 +12,9 @@
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^3.0.0-5",
-    "element-plus": "^2.1.8",
     "swiper": "^8.1.0",
     "vue": "^3.2.25",
-    "vue-router": "^4.0.13",
-    "vue-split-carousel": "^2.2.3",
-    "vue3-carousel": "^0.1.38"
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.0",
