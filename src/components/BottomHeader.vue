@@ -1,7 +1,3 @@
-<script>
-export default {};
-</script>
-
 <template>
   <div
     class="bg-white flex flex-col w-full border px-[8%] md:flex-row md:justify-between md:px-[8%]"
@@ -135,3 +131,7 @@ export default {};
     </div>
   </div>
 </template>
+
+<script>
+export default {};
+</script>

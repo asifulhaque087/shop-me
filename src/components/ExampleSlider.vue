@@ -23,76 +23,6 @@
   </swiper>
 </template>
 
-<style scoped>
-.swiper {
-  overflow: visible;
-}
-:deep .swiper-button-prev,
-:deep .swiper-button-next {
-  color: black;
-  position: absolute;
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  height: auto;
-  top: -10px;
-  background-color: white;
-}
-
-:deep .swiper-button-prev {
-  left: 90%;
-}
-
-:deep .swiper-button-next {
-  left: 95%;
-}
-
-:deep .swiper-button-next:after,
-:deep .swiper-button-prev:after {
-  font-size: 10px;
-  font-weight: bold;
-  padding: 5px;
-}
-
-@media (max-width: 768px) {
-  :deep .swiper-button-prev {
-    left: 80%;
-  }
-  :deep .swiper-button-next {
-    left: 90%;
-  }
-}
-
-/* .default-slider .swiper-slide {
-  display: flex;
-  height: 300px !important;
-  justify-content: center;
-  align-items: center;
-  color: #000;
-  font-size: 24px;
-  font-weight: 700;
-}
-.swiper-slide:nth-child(1n) {
-  background-color: palevioletred;
-}
-.swiper-slide:nth-child(2n) {
-  background-color: skyblue;
-}
-.swiper-slide:nth-child(3n) {
-  background-color: peru;
-}
-.swiper-slide:nth-child(4n) {
-  background-color: cadetblue;
-}
-.swiper-slide:nth-child(5n) {
-  background-color: plum;
-}
-.swiper-slide:nth-child(6n) {
-  background-color: goldenrod;
-}
-.swiper-slide:nth-child(7n) {
-  background-color: palegreen;
-} */
-</style>
-
 <script>
 import SwiperCore, { Navigation, Autoplay } from "swiper";
 import Product from "./Product.vue";
@@ -141,3 +71,74 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.swiper {
+  overflow: visible;
+}
+
+:deep(.swiper-button-prev),
+:deep(.swiper-button-next) {
+  color: black;
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  height: auto;
+  top: -10px;
+  background-color: white;
+}
+
+:deep(.swiper-button-prev) {
+  left: 90%;
+}
+
+:deep(.swiper-button-next) {
+  left: 95%;
+}
+
+:deep(.swiper-button-next:after),
+:deep(.swiper-button-prev:after) {
+  font-size: 10px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  :deep(.swiper-button-prev) {
+    left: 80%;
+  }
+  :deep(.swiper-button-next) {
+    left: 90%;
+  }
+}
+
+/* .default-slider .swiper-slide {
+  display: flex;
+  height: 300px !important;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+.swiper-slide:nth-child(1n) {
+  background-color: palevioletred;
+}
+.swiper-slide:nth-child(2n) {
+  background-color: skyblue;
+}
+.swiper-slide:nth-child(3n) {
+  background-color: peru;
+}
+.swiper-slide:nth-child(4n) {
+  background-color: cadetblue;
+}
+.swiper-slide:nth-child(5n) {
+  background-color: plum;
+}
+.swiper-slide:nth-child(6n) {
+  background-color: goldenrod;
+}
+.swiper-slide:nth-child(7n) {
+  background-color: palegreen;
+} */
+</style>

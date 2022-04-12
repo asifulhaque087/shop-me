@@ -11,37 +11,6 @@
   </div>
 </template>
 
-<style scoped>
-.swiper {
-  overflow: visible;
-}
-
-:deep .swiper-button-prev,
-:deep .swiper-button-next {
-  color: black;
-  position: absolute;
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  height: auto;
-  top: -20px;
-  background-color: white;
-}
-
-:deep .swiper-button-prev {
-  left: 75%;
-}
-
-:deep .swiper-button-next {
-  left: 85%;
-}
-
-:deep .swiper-button-next:after,
-:deep .swiper-button-prev:after {
-  font-size: 10px;
-  font-weight: bold;
-  padding: 8px;
-}
-</style>
-
 <script>
 import SwiperCore, { Navigation, Autoplay } from "swiper";
 // Import Swiper Vue.js components
@@ -90,3 +59,34 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.swiper {
+  overflow: visible;
+}
+
+:deep(.swiper-button-prev),
+:deep(.swiper-button-next) {
+  color: black;
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  height: auto;
+  top: -20px;
+  background-color: white;
+}
+
+:deep(.swiper-button-prev) {
+  left: 75%;
+}
+
+:deep(.swiper-button-next) {
+  left: 85%;
+}
+
+:deep(.swiper-button-next:after),
+:deep(.swiper-button-prev:after) {
+  font-size: 10px;
+  font-weight: bold;
+  padding: 8px;
+}
+</style>
