@@ -1,11 +1,11 @@
 <template>
   <div class="flex flex-col md:flex-row px-[8%] gap-10 pt-10 pb-20">
     <!-- left -->
-    <div class="w-full max-w-full md:max-w-[260px] overflow-hidden shrink-0">
+    <div class="w-full max-w-full md:max-w-[260px] shrink-0">
       <!-- todays deal -->
-      <div>
-        <todays-deal />
-      </div>
+        <div class="overflow-hidden">
+          <todays-deal />
+        </div>
 
       <!-- Bestseller Products -->
       <div class="pt-10">
@@ -28,7 +28,7 @@
       </div>
 
       <!-- testimonials -->
-      <div class="pt-10">
+      <div class="pt-10 overflow-hidden">
         <testimonials />
       </div>
 
