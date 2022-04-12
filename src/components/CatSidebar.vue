@@ -97,23 +97,23 @@ export default {
 };
 </script>
 
-<style>
-#menu {
+<style scoped>
+:deep(#menu){
   font-size: 14px;
 }
 
-ul {
+:deep(ul) {
   display: block;
   list-style: none;
   border: 1px solid rgba(0, 0, 0, 0.05);
   /* width: 257px; */
 }
 
-li:hover {
+:deep(li:hover) {
   background-color: #171515;
 }
 
-ul li {
+:deep(ul li) {
   background-color: white;
   color: #333;
   width: 257px;
@@ -132,18 +132,18 @@ ul li {
   transition: 0.5s;
 }
 
-ul li:last-of-type {
+:deep(ul li:last-of-type) {
   border: none;
 }
 
-li:hover {
+:deep(li:hover) {
   color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-ul ul {
+:deep(ul ul) {
   position: relative;
   margin-top: -21px;
   margin-left: 164px;
@@ -155,20 +155,20 @@ ul ul {
   z-index: 1111; */
 }
 
-ul ul ul {
+:deep(ul ul ul) {
   position: relative;
 }
 
-ul ul,
-ul ul ul {
+:deep(ul ul),
+:deep(ul ul ul) {
   display: none;
 }
 
-ul > li:hover > ul {
+:deep(ul > li:hover > ul) {
   display: inline-block;
 }
 
-.caret {
+:deep(.caret) {
   display: inline;
   margin: 5px;
   width: 5px;
@@ -182,16 +182,16 @@ ul > li:hover > ul {
   transform: rotate(45deg);
 }
 
-.caret:hover {
+:deep(.caret:hover) {
   border-top: 2px solid white;
   border-right: 2px solid white;
 }
 
 @media (max-width: 768px) {
-  ul li {
+  :deep(ul li) {
     width: 100%;
   }
-  ul > li:hover > ul {
+  :deep(ul > li:hover > ul) {
     display: none;
   }
 }
