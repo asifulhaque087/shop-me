@@ -3,7 +3,7 @@
     class="text-[#333] bg-gray-50 flex flex-col items-center gap-1 text-sm border-b py-2 md:flex-row md:justify-between px-[8%]"
   >
     <!-- login -->
-    <div data-modal-toggle="small-modal">Login</div>
+    <div data-modal-toggle="small-modal" class="cursor-pointer">Login</div>
     <!-- dropdown -->
     <button
       type="button"

@@ -8,9 +8,8 @@
     :autoplay="{
       delay: 2500,
       disableOnInteraction: false,
+      pauseOnMouseEnter: true,
     }"
-    @swiper="onSwiper"
-    @slideChange="onSlideChange"
     class="default-slider box-border"
   >
     <swiper-slide

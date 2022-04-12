@@ -10,19 +10,19 @@ export default {};
     <div
       class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-4 md:p-1 md:grow"
     >
-      <fa icon="bars" class="text-[#b2b2b2] text-2xl" />
+      <fa icon="bars" class="text-[#b2b2b2] text-2xl cursor-pointer" />
     </div>
     <!-- 1st er childrens -->
     <div
       class="hidden md:grid place-items-center px-5 py-4 border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 md:grow"
     >
-      <span>Home</span>
+      <span class="cursor-pointer">Home</span>
     </div>
 
     <div
       class="hidden md:grid place-items-center px-5 py-4 border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 md:grow"
     >
-      <span>My Account</span>
+      <span class="cursor-pointer">My Account</span>
     </div>
 
     <div
@@ -72,7 +72,7 @@ export default {};
     <div
       class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-4 md:p-1 md:grow"
     >
-      <fa icon="list" class="text-[#b2b2b2] text-2xl" />
+      <fa icon="list" class="text-[#b2b2b2] text-2xl cursor-pointer" />
     </div>
 
     <!-- 3rd -->
@@ -85,7 +85,10 @@ export default {};
         >
           0
         </span>
-        <fa icon="heart" class="text-[#4ac4fa] text-2xl relative" />
+        <fa
+          icon="heart"
+          class="text-[#4ac4fa] text-2xl relative cursor-pointer"
+        />
       </div>
     </div>
 
@@ -101,7 +104,7 @@ export default {};
         </span>
         <fa
           icon="arrows-up-down-left-right"
-          class="text-[#4ac4fa] text-2xl relative"
+          class="text-[#4ac4fa] text-2xl relative cursor-pointer"
         />
       </div>
     </div>
@@ -118,7 +121,10 @@ export default {};
           >
             0
           </span>
-          <fa icon="shopping-cart" class="text-[#4ac4fa] text-3xl relative" />
+          <fa
+            icon="shopping-cart"
+            class="text-[#4ac4fa] text-3xl relative cursor-pointer"
+          />
         </div>
         <!-- right -->
         <div class="flex flex-col">

@@ -7,8 +7,6 @@
         :space-between="-1"
         navigation
         :loop="true"
-        @swiper="onSwiper"
-        @slideChange="onSlideChange"
       >
         <swiper-slide v-for="(n, i) in 1" :key="i">
           <product class="border" />

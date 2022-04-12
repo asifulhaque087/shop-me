@@ -10,7 +10,7 @@
           <div class="image overflow-hidden">
             <img
               class="h-auto w-full mx-auto"
-              src="https://lavinephotography.com.au/wp-content/uploads/2017/01/PROFILE-Photography-112.jpg"
+              src="https://i0.wp.com/cms.ironk12.org/wp-content/uploads/2020/02/no-person-profile-pic.png?ssl=1"
               alt=""
             />
           </div>
@@ -236,4 +236,5 @@ export default {};
     text-align: left;
   }
 }
+/* src="https://lavinephotography.com.au/wp-content/uploads/2017/01/PROFILE-Photography-112.jpg" */
 </style>

@@ -66,18 +66,18 @@
           <h1 class="text-2xl font-bold text-[#333] mb-3">Medicine & Health</h1>
           <div class="flex flex-col md:flex-row mb-10 md:mb-0 md:gap-1">
             <span
-              class="md:rounded-t p-2 bg-white text-[#333] border-l border-r border-t hover:bg-[#018bc8] hover:text-white"
+              class="md:rounded-t p-2 bg-white text-[#333] border-l border-r border-t hover:bg-[#018bc8] hover:text-white cursor-pointer"
             >
               Feminine Care
             </span>
             <span
-              class="md:rounded-t p-2 bg-white text-[#333] border-l border-r border-t"
+              class="md:rounded-t p-2 bg-white text-[#333] border-l border-r border-t cursor-pointer"
             >
               Food Care
             </span>
 
             <span
-              class="md:rounded-t p-2 bg-white text-[#333] border-b border-l border-r border-t md:border-b-0"
+              class="md:rounded-t p-2 bg-white text-[#333] border-b border-l border-r border-t md:border-b-0 cursor-pointer"
             >
               Hair Care
             </span>
@@ -97,18 +97,18 @@
           <h1 class="text-2xl font-bold text-[#333] mb-3">Beauty</h1>
           <div class="flex flex-col md:flex-row mb-10 md:mb-0 md:gap-1">
             <span
-              class="md:rounded-t p-2 bg-white text-[#333] border-l border-r border-t hover:bg-[#018bc8] hover:text-white"
+              class="md:rounded-t p-2 bg-white text-[#333] border-l border-r border-t hover:bg-[#018bc8] hover:text-white cursor-pointer"
             >
               Feminine Care
             </span>
             <span
-              class="md:rounded-t p-2 bg-white text-[#333] border-l border-r border-t"
+              class="md:rounded-t p-2 bg-white text-[#333] border-l border-r border-t cursor-pointer"
             >
               Food Care
             </span>
 
             <span
-              class="md:rounded-t p-2 bg-white text-[#333] border-b border-l border-r border-t md:border-b-0"
+              class="md:rounded-t p-2 bg-white text-[#333] border-b border-l border-r border-t md:border-b-0 cursor-pointer"
             >
               Hair Care
             </span>
@@ -129,18 +129,18 @@
           <h1 class="text-2xl font-bold text-[#333] mb-3">Personal Care</h1>
           <div class="flex flex-col md:flex-row mb-10 md:mb-0 md:gap-1">
             <span
-              class="md:rounded-t p-2 bg-white text-[#333] border-l border-r border-t hover:bg-[#018bc8] hover:text-white"
+              class="md:rounded-t p-2 bg-white text-[#333] border-l border-r border-t hover:bg-[#018bc8] hover:text-white cursor-pointer"
             >
               Feminine Care
             </span>
             <span
-              class="md:rounded-t p-2 bg-white text-[#333] border-l border-r border-t"
+              class="md:rounded-t p-2 bg-white text-[#333] border-l border-r border-t cursor-pointer"
             >
               Food Care
             </span>
 
             <span
-              class="md:rounded-t p-2 bg-white text-[#333] border-b border-l border-r border-t md:border-b-0"
+              class="md:rounded-t p-2 bg-white text-[#333] border-b border-l border-r border-t md:border-b-0 cursor-pointer"
             >
               Hair Care
             </span>

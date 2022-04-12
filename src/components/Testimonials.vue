@@ -2,16 +2,9 @@
   <div>
     <h1 class="text-2xl font-bold text-[#333] mb-3">Testimonials</h1>
     <div>
-      <swiper
-        :slides-per-view="1"
-        :space-between="-1"
-        navigation
-        :loop="true"
-        @swiper="onSwiper"
-        @slideChange="onSlideChange"
-      >
+      <swiper :slides-per-view="1" :space-between="-1" navigation :loop="true">
         <swiper-slide v-for="(n, i) in 1" :key="i">
-          <testimonial  />
+          <testimonial />
         </swiper-slide>
       </swiper>
     </div>

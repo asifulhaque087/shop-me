@@ -5,10 +5,9 @@
     :loop="true"
     :autoplay="{
       delay: 2500,
-      disableOnInteraction: true,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
     }"
-    @swiper="onSwiper"
-    @slideChange="onSlideChange"
     class="default-slider box-border"
   >
     <swiper-slide v-for="(n, i) in 1" :key="i">
