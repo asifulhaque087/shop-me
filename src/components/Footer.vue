@@ -168,7 +168,6 @@
             <fa icon="envelope" class="text-white text-lg" />
           </span>
         </div>
-        <!-- input will be here -->
       </div>
     </main>
     <!--  -->

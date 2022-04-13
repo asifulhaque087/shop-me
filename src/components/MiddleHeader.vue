@@ -24,8 +24,20 @@
     </div>
 
     <!-- right -->
-    <div class="flex w-full border-2 border-cyan-400">
-      <!-- left -->
+
+    <div class="flex w-full">
+      <input
+        type="text"
+        class="rounded-none rounded-l-lg bg-gray-50 border text-gray-900 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5"
+        placeholder="Search"
+      />
+      <span
+        class="inline-flex items-center px-3 text-sm text-gray-900 bg-primary-color rounded-r-md"
+      >
+        <fa icon="search" class="text-white text-2xl" />
+      </span>
+    </div>
+    <!-- <div class="flex w-full border-2 border-cyan-400">
       <div class="flex flex-col grow lg:flex-row lg:items-center">
         <div class="lg:grow">
           <input
@@ -42,13 +54,12 @@
         </div>
       </div>
 
-      <!-- right -->
       <div class="bg-cyan-400 grid place-items-center px-2">
         <div>
           <fa icon="search" class="text-white text-2xl" />
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
