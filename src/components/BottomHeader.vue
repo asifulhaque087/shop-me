@@ -65,11 +65,11 @@
     </div>
 
     <!-- 2nd -->
-    <div
+    <!-- <div
       class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-4 md:p-1 md:grow"
     >
       <fa icon="list" class="text-[#b2b2b2] text-2xl cursor-pointer" />
-    </div>
+    </div> -->
 
     <!-- 3rd -->
     <div
@@ -89,7 +89,7 @@
     </div>
 
     <!-- 4th -->
-    <div
+    <!-- <div
       class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-4 md:p-1 md:grow"
     >
       <div class="relative">
@@ -103,7 +103,7 @@
           class="text-secondary-color text-2xl relative cursor-pointer"
         />
       </div>
-    </div>
+    </div> -->
 
     <!-- 5th -->
     <div
