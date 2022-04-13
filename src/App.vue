@@ -1,3 +1,18 @@
+<template>
+  <div>
+    <!-- <HelloWorld msg="Hello Vue 3 + Vite" /> -->
+    <top-header />
+    <middle-header />
+    <bottom-header />
+    <!-- <Home/> -->
+    <!-- <profile/> -->
+    <router-view />
+    <!-- <shopping-cart/> -->
+    <!-- footer -->
+    <Footer />
+  </div>
+</template>
+
 <script>
 import TopHeader from "./components/TopHeader.vue";
 import MiddleHeader from "./components/MiddleHeader.vue";
@@ -25,21 +40,6 @@ export default {
   },
 };
 </script>
-
-<template>
-  <div>
-    <!-- <HelloWorld msg="Hello Vue 3 + Vite" /> -->
-    <top-header />
-    <middle-header />
-    <bottom-header />
-    <!-- <Home/> -->
-    <!-- <profile/> -->
-    <router-view />
-    <!-- <shopping-cart/> -->
-    <!-- footer -->
-    <Footer />
-  </div>
-</template>
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
