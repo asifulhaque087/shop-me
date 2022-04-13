@@ -3,48 +3,6 @@
     <!-- End of Navbar -->
     <!-- <div class="container mx-auto px[8%]"> -->
     <div class="flex flex-col md:flex-row px-[8%] gap-10 pt-10 pb-20">
-      <!-- Left Side -->
-      <div class="w-full max-w-[260px] overflow-hidden shrink-0">
-        <!-- Profile Card -->
-        <div class="bg-white p-3 border-t-4 border-cyan-400">
-          <div class="image overflow-hidden">
-            <img
-              class="h-auto w-full mx-auto"
-              src="https://i0.wp.com/cms.ironk12.org/wp-content/uploads/2020/02/no-person-profile-pic.png?ssl=1"
-              alt=""
-            />
-          </div>
-          <h1 class="text-gray-900 font-bold text-xl leading-8 my-1">
-            Jane Doe
-          </h1>
-          <!-- <h3 class="text-gray-600 font-lg text-semibold leading-6">
-              Owner at Her Company Inc.
-            </h3>
-            <p class="text-sm text-gray-500 hover:text-gray-600 leading-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reprehenderit, eligendi dolorum sequi illum qui unde aspernatur
-              non deserunt
-            </p> -->
-          <ul
-            class="bg-gray-100 text-gray-600 hover:text-gray-700 hover:shadow py-2 px-3 mt-3 divide-y rounded shadow-sm"
-          >
-            <li class="flex items-center py-3">
-              <span>Status</span>
-              <span class="ml-auto"
-                ><span class="bg-cyan-500 py-1 px-2 rounded text-white text-sm"
-                  >Active</span
-                ></span
-              >
-            </li>
-            <li class="flex items-center py-3">
-              <span>Member since</span>
-              <span class="ml-auto">Nov 07, 2016</span>
-            </li>
-          </ul>
-        </div>
-        <!-- End of profile card -->
-        <div class="my-4"></div>
-      </div>
       <!-- Right Side -->
       <div class="grow shrink overflow-hidden">
         <h1 class="text-2xl font-bold text-[#333] mb-4 mt-10">About</h1>
