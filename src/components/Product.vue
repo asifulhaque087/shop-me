@@ -36,9 +36,9 @@ export default {
           <div class="py-2 flex justify-between">
             <!-- left -->
             <div>
-              <span class="font-bold text-secondary-color text-xl"> $10 </span>
+              <span class="font-bold text-secondary-color text-xl"> €10 </span>
               <span class="text-gray-300 font-medium">
-                <span class="line-through">$3</span>
+                <span class="line-through">€3</span>
                 <!-- <span class="text-gray-400 text-xs"> 8% </span> -->
               </span>
             </div>

@@ -125,7 +125,7 @@
         <!-- right -->
         <div class="flex flex-col">
           <span class="text-xs text-[#b2b2b2] font-bold">My Cart</span>
-          <span class="text-[#333] text-lg font-bold">$14.99</span>
+          <span class="text-[#333] text-lg font-bold">€14.99</span>
         </div>
       </div>
     </div>

@@ -123,7 +123,7 @@
             className="text-sm pr-6 whitespace-no-wrap text-gray-800 dark:text-gray-100 tracking-normal leading-4 block sm:table-cell text-right sm:text-center relative py-10 sm:py-0 border-b sm:border-b-0"
             data-label="Total"
           >
-            2039
+            €2039
           </td>
 
           <!-- action -->
@@ -155,14 +155,14 @@
     >
       <button
         type="button"
-        class="whitespace-nowrap text-[#f8f8f8] bg-primary-color hover:bg-[#f8f8f8] hover:text-primary-color focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+        class="whitespace-nowrap text-[#f8f8f8] bg-primary-color hover:bg-[#f8f8f8] hover:text-primary-color  font-medium rounded text-sm px-5 py-2.5"
       >
         Continue Shopping
       </button>
 
       <button
         type="button"
-        class="whitespace-nowrap text-primary-color bg-[#f8f8f8] hover:bg-[#018bc8] hover:text-[#f8f8f8] focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+        class="whitespace-nowrap text-primary-color bg-[#f8f8f8] hover:bg-[#018bc8] hover:text-[#f8f8f8] font-medium rounded text-sm px-5 py-2.5"
       >
         Clear Shopping Cart
       </button>
@@ -181,7 +181,7 @@
           <input
             type="text"
             id="coupon"
-            class="mb-4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            class="mb-4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block w-full p-2.5"
             placeholder="Coupon Code"
           />
         </div>
@@ -191,7 +191,7 @@
         >
           <button
             type="button"
-            class="whitespace-nowrap text-[#f8f8f8] bg-primary-color hover:bg-[#f8f8f8] hover:text-primary-color focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            class="whitespace-nowrap text-[#f8f8f8] bg-primary-color hover:bg-[#f8f8f8] hover:text-primary-color  font-medium rounded text-sm px-5 py-2.5"
           >
             Apply Coupon
           </button>
@@ -207,7 +207,7 @@
             <thead class="text-[#777]">
               <tr class="border-b">
                 <th scope="col" class="px-6 py-3 border-r">Subtotal</th>
-                <th scope="col" class="px-6 py-3">$14.99</th>
+                <th scope="col" class="px-6 py-3">€14.99</th>
               </tr>
             </thead>
             <tbody>
@@ -215,7 +215,7 @@
                 <th scope="row" class="px-6 py-4 whitespace-nowrap border-r">
                   Total
                 </th>
-                <td class="px-6 py-4">$14.99</td>
+                <td class="px-6 py-4">€14.99</td>
               </tr>
             </tbody>
           </table>
