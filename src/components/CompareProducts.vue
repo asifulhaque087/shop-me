@@ -9,14 +9,14 @@
     >
       <button
         type="button"
-        class="whitespace-nowrap text-[#4ac4fa] bg-[#f8f8f8] hover:bg-[#018bc8] hover:text-[#f8f8f8] font-medium rounded text-sm px-2 py-2.1"
+        class="whitespace-nowrap text-secondary-color bg-[#f8f8f8] hover:bg-secondary-color hover:text-[#f8f8f8] font-medium rounded text-sm px-2 py-2.1"
       >
         Compare
       </button>
 
       <button
         type="button"
-        class="whitespace-nowrap text-[#4ac4fa] bg-[#f8f8f8] hover:bg-[#018bc8] hover:text-[#f8f8f8] font-medium rounded text-sm px-2 py-2.1"
+        class="whitespace-nowrap text-secondary-color bg-[#f8f8f8] hover:bg-secondary-color hover:text-[#f8f8f8] font-medium rounded text-sm px-2 py-2.1"
       >
         Clear all
       </button>

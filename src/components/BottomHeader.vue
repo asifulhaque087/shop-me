@@ -83,7 +83,7 @@
         </span>
         <fa
           icon="heart"
-          class="text-[#4ac4fa] text-2xl relative cursor-pointer"
+          class="text-secondary-color text-2xl relative cursor-pointer"
         />
       </div>
     </div>
@@ -100,7 +100,7 @@
         </span>
         <fa
           icon="arrows-up-down-left-right"
-          class="text-[#4ac4fa] text-2xl relative cursor-pointer"
+          class="text-secondary-color text-2xl relative cursor-pointer"
         />
       </div>
     </div>
@@ -119,7 +119,7 @@
           </span>
           <fa
             icon="shopping-cart"
-            class="text-[#4ac4fa] text-3xl relative cursor-pointer"
+            class="text-secondary-color text-3xl relative cursor-pointer"
           />
         </div>
         <!-- right -->

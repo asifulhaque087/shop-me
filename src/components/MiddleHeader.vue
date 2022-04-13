@@ -17,7 +17,7 @@
     <div>
       <span class="text-xs font-light text-gray-700 md:whitespace-nowrap"
         >Call us toll free:
-        <span class="text-[#018bc8] text-sm font-medium"
+        <span class="text-secondary-color text-sm font-medium"
           >+1888 234 5678</span
         ></span
       >

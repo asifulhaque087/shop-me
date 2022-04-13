@@ -33,7 +33,7 @@
           </h1>
           <button
             type="button"
-            class="whitespace-nowrap text-white bg-[#4ac4fa] hover:bg-[#018bc8] focus:ring-4 focus:ring-blue-300 font-medium rounded px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            class="whitespace-nowrap text-white bg-primary-color hover:bg-[#018bc8] focus:ring-4 focus:ring-blue-300 font-medium rounded px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
           >
             Contact Us Now!
           </button>

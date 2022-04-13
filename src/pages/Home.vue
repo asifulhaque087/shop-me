@@ -3,9 +3,9 @@
     <!-- left -->
     <div class="w-full max-w-full md:max-w-[260px] shrink-0">
       <!-- todays deal -->
-        <div class="overflow-hidden">
-          <todays-deal />
-        </div>
+      <div class="overflow-hidden">
+        <todays-deal />
+      </div>
 
       <!-- Bestseller Products -->
       <div class="pt-10">
@@ -86,7 +86,7 @@
           <div class="bg-white border-b border-l border-r p-5">
             <button
               type="button"
-              class="whitespace-nowrap text-[#4ac4fa] bg-[#f8f8f8] hover:bg-[#018bc8] hover:text-[#f8f8f8] focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+              class="whitespace-nowrap text-secondary-color bg-[#f8f8f8] hover:bg-secondary-color hover:text-[#f8f8f8] font-medium rounded text-sm px-5 py-2.5"
             >
               View All Products
             </button>
@@ -117,7 +117,7 @@
           <div class="bg-white border-b border-l border-r p-5">
             <button
               type="button"
-              class="whitespace-nowrap text-[#4ac4fa] bg-[#f8f8f8] hover:bg-[#018bc8] hover:text-[#f8f8f8] focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+              class="whitespace-nowrap text-secondary-color bg-[#f8f8f8] hover:bg-secondary-color hover:text-[#f8f8f8] font-medium rounded text-sm px-5 py-2.5"
             >
               View All Products
             </button>
@@ -149,7 +149,7 @@
           <div class="bg-white border-b border-l border-r p-5">
             <button
               type="button"
-              class="whitespace-nowrap text-[#4ac4fa] bg-[#f8f8f8] hover:bg-[#018bc8] hover:text-[#f8f8f8] focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+              class="whitespace-nowrap text-secondary-color bg-[#f8f8f8] hover:bg-secondary-color hover:text-[#f8f8f8] font-medium rounded text-sm px-5 py-2.5"
             >
               View All Products
             </button>

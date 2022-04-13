@@ -155,14 +155,14 @@
     >
       <button
         type="button"
-        class="whitespace-nowrap text-[#f8f8f8] bg-[#4ac4fa] hover:bg-[#f8f8f8] hover:text-[#018bc8] focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+        class="whitespace-nowrap text-[#f8f8f8] bg-primary-color hover:bg-[#f8f8f8] hover:text-primary-color focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
       >
         Continue Shopping
       </button>
 
       <button
         type="button"
-        class="whitespace-nowrap text-[#4ac4fa] bg-[#f8f8f8] hover:bg-[#018bc8] hover:text-[#f8f8f8] focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+        class="whitespace-nowrap text-primary-color bg-[#f8f8f8] hover:bg-[#018bc8] hover:text-[#f8f8f8] focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
       >
         Clear Shopping Cart
       </button>
@@ -191,7 +191,7 @@
         >
           <button
             type="button"
-            class="whitespace-nowrap text-[#f8f8f8] bg-[#4ac4fa] hover:bg-[#f8f8f8] hover:text-[#018bc8] focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            class="whitespace-nowrap text-[#f8f8f8] bg-primary-color hover:bg-[#f8f8f8] hover:text-primary-color focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
           >
             Apply Coupon
           </button>
@@ -211,7 +211,7 @@
               </tr>
             </thead>
             <tbody>
-              <tr class="bg-gray-50 border-b text-[#018bc8]">
+              <tr class="bg-gray-50 border-b text-secondary-color">
                 <th scope="row" class="px-6 py-4 whitespace-nowrap border-r">
                   Total
                 </th>
@@ -225,7 +225,7 @@
           >
             <button
               type="button"
-              class="whitespace-nowrap text-[#f8f8f8] bg-[#4ac4fa] hover:bg-[#f8f8f8] hover:text-[#018bc8] focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+              class="whitespace-nowrap text-[#f8f8f8] bg-primary-color hover:bg-[#f8f8f8] hover:text-primary-color focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
             >
               Proceed to Checkout
             </button>

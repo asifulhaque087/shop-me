@@ -24,7 +24,7 @@ export default {
 
           <button
             type="button"
-            class="hidden group-hover:block whitespace-nowrap absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-white bg-stone-400 hover:bg-stone-500 focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            class="hidden group-hover:block whitespace-nowrap absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-white bg-stone-400 hover:bg-stone-500   font-medium rounded text-sm px-5 py-2.5 mr-2 mb-2"
           >
             Quick View
           </button>
@@ -36,7 +36,7 @@ export default {
           <div class="py-2 flex justify-between">
             <!-- left -->
             <div>
-              <span class="font-bold text-green-500 text-xl"> $10 </span>
+              <span class="font-bold text-secondary-color text-xl"> $10 </span>
               <span class="text-gray-300 font-medium">
                 <span class="line-through">$3</span>
                 <!-- <span class="text-gray-400 text-xs"> 8% </span> -->
@@ -55,7 +55,7 @@ export default {
     </a>
     <button
       type="button"
-      class="whitespace-nowrap text-white bg-[#4ac4fa] hover:bg-[#018bc8] focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+      class="whitespace-nowrap text-white bg-primary-color hover:bg-[#018bc8]  font-medium rounded text-sm px-5 py-2.5 mr-2 mb-2"
     >
       Add to cart
     </button>

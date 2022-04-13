@@ -23,7 +23,7 @@
             ></path>
           </svg>
         </span>
-        <p class="font-bold text-[#018bc8]">Fast & Free Delivery</p>
+        <p class="font-bold text-primary-color">Fast & Free Delivery</p>
       </div>
 
       <div class="flex gap-4 items-center py-7">
@@ -47,7 +47,7 @@
             ></path>
           </svg>
         </span>
-        <p class="font-bold text-[#018bc8]">Fast & Free Delivery</p>
+        <p class="font-bold text-primary-color">Fast & Free Delivery</p>
       </div>
 
       <div class="flex gap-4 items-center py-7">
@@ -71,7 +71,7 @@
             ></path>
           </svg>
         </span>
-        <p class="font-bold text-[#018bc8]">Fast & Free Delivery</p>
+        <p class="font-bold text-primary-color">Fast & Free Delivery</p>
       </div>
     </header> -->
 
@@ -92,7 +92,7 @@
         <div class="flex flex-col gap-3">
           <div class="flex items-center gap-2 mt-4">
             <span>
-              <fa icon="map-location" class="text-[#4ac4fa]" />
+              <fa icon="map-location" class="text-secondary-color" />
             </span>
             <p class="text-sm text-[#777]">
               8901 Marmora Road, Glasgow, D04 89GR.
@@ -101,14 +101,14 @@
 
           <div class="flex items-center gap-2">
             <span>
-              <fa icon="phone" class="text-[#4ac4fa]" />
+              <fa icon="phone" class="text-secondary-color" />
             </span>
             <p class="text-sm text-[#777]">800-559-65-80</p>
           </div>
 
           <div class="flex items-center gap-2">
             <span>
-              <fa icon="envelope" class="text-[#4ac4fa]" />
+              <fa icon="envelope" class="text-secondary-color" />
             </span>
             <p class="text-sm text-[#777]">info@companyname.com</p>
           </div>
@@ -163,7 +163,7 @@
             placeholder="Bonnie Green"
           />
           <span
-            class="inline-flex items-center px-3 text-sm text-gray-900 bg-cyan-500 rounded-r-md"
+            class="inline-flex items-center px-3 text-sm text-gray-900 bg-primary-color rounded-r-md"
           >
             <fa icon="envelope" class="text-white text-lg" />
           </span>

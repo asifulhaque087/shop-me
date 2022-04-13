@@ -16,7 +16,7 @@
           <p class="text-[#333] text-sm leading-normal">
             Metus nulla facilisi, Original 24 fl oz
           </p>
-          <span class="flex gap-2 font-bold text-cyan-500 text-lg">
+          <span class="flex gap-2 font-bold text-secondary-color text-lg">
             <span class="text-gray-300 font-medium line-through">$9.99</span>
             <span>$5.99</span>
           </span>
@@ -43,7 +43,7 @@
           <p class="text-[#333] text-sm leading-normal">
             Metus nulla facilisi, Original 24 fl oz
           </p>
-          <span class="flex gap-2 font-bold text-cyan-500 text-lg">
+          <span class="flex gap-2 font-bold text-secondary-color text-lg">
             <span class="text-gray-300 font-medium line-through">$9.99</span>
             <span>$5.99</span>
           </span>
@@ -70,7 +70,7 @@
           <p class="text-[#333] text-sm leading-normal">
             Metus nulla facilisi, Original 24 fl oz
           </p>
-          <span class="flex gap-2 font-bold text-cyan-500 text-lg">
+          <span class="flex gap-2 font-bold text-secondary-color text-lg">
             <span class="text-gray-300 font-medium line-through">$9.99</span>
             <span>$5.99</span>
           </span>
