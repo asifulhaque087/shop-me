@@ -5,16 +5,16 @@
     <!-- login -->
     <div data-modal-toggle="small-modal" class="cursor-pointer">Login</div>
     <!-- dropdown -->
-    <button
+    <!-- <button
       type="button"
       class="focus:outline-none dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 flex items-center gap-2"
     >
       <fa icon="caret-down" data-dropdown-toggle="dropdown" />
       <span class="text-[13px]"> USD </span>
       <fa icon="caret-down" data-dropdown-toggle="dropdown2" />
-    </button>
+    </button> -->
     <!-- Dropdown menu 1 -->
-    <div
+    <!-- <div
       id="dropdown"
       class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
     >
@@ -37,10 +37,10 @@
           >
         </li>
       </ul>
-    </div>
+    </div> -->
 
     <!-- Dropdown menu 2 -->
-    <div
+    <!-- <div
       id="dropdown2"
       class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
     >
@@ -63,7 +63,7 @@
           >
         </li>
       </ul>
-    </div>
+    </div> -->
   </div>
   <!-- modal -->
   <!-- Small Modal -->
