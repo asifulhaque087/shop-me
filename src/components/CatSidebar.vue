@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-2xl font-bold text-[#333] mb-3">Categories</h1>
+    <!-- <h1 class="text-2xl font-bold text-[#333] mb-3">Categories</h1> -->
     <div>
       <ul id="menu">
         <!-- <li

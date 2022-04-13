@@ -15,6 +15,31 @@
       <span class="cursor-pointer">Home</span>
     </div>
 
+    <!-- categories -->
+    <div
+      class="grid place-items-center px-5 py-4 border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 md:grow"
+    >
+      <span data-dropdown-toggle="categories" class="cursor-pointer"
+        >Categories</span
+      >
+    </div>
+
+    <!-- dropdown -->
+    <div
+      id="categories"
+      class="hidden z-20 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+    >
+      <cat-sidebar />
+    </div>
+
+    <!-- 2nd -->
+    <!-- <div
+      class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-4 md:p-1 md:grow"
+    >
+      <fa icon="list" class="text-[#b2b2b2] text-2xl cursor-pointer" />
+    </div> -->
+
+
     <div
       class="hidden md:grid place-items-center px-5 py-4 border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 md:grow"
     >
@@ -64,12 +89,23 @@
       </ul>
     </div>
 
-    <!-- 2nd -->
+    <!-- 4th -->
     <!-- <div
       class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-4 md:p-1 md:grow"
     >
-      <fa icon="list" class="text-[#b2b2b2] text-2xl cursor-pointer" />
+      <div class="relative">
+        <span
+          class="absolute mt-3 left-[-6px] text-[#777] z-10 bg-white rounded-lg px-1"
+        >
+          0
+        </span>
+        <fa
+          icon="arrows-up-down-left-right"
+          class="text-secondary-color text-2xl relative cursor-pointer"
+        />
+      </div>
     </div> -->
+
 
     <!-- 3rd -->
     <div
@@ -87,23 +123,6 @@
         />
       </div>
     </div>
-
-    <!-- 4th -->
-    <!-- <div
-      class="grid place-items-center border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 p-4 md:p-1 md:grow"
-    >
-      <div class="relative">
-        <span
-          class="absolute mt-3 left-[-6px] text-[#777] z-10 bg-white rounded-lg px-1"
-        >
-          0
-        </span>
-        <fa
-          icon="arrows-up-down-left-right"
-          class="text-secondary-color text-2xl relative cursor-pointer"
-        />
-      </div>
-    </div> -->
 
     <!-- 5th -->
     <div
@@ -133,5 +152,12 @@
 </template>
 
 <script>
-export default {};
+import CatSidebar from "./CatSidebar.vue";
+export default {
+  components: {
+    CatSidebar,
+  },
+};
 </script>
+
+CatSidebar

@@ -13,9 +13,9 @@
       </div>
 
       <!-- Catgories -->
-      <div class="pt-10">
+      <!-- <div class="pt-10">
         <cat-sidebar />
-      </div>
+      </div> -->
 
       <!-- advertise-->
       <div class="pt-10">
@@ -32,7 +32,7 @@
         <testimonials />
       </div>
 
-      <!-- testimonials -->
+      <!-- blog categories -->
       <div class="pt-10">
         <blog-category />
       </div>
