@@ -12,7 +12,9 @@
     <div
       class="hidden md:grid place-items-center px-5 py-4 border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 md:grow"
     >
-      <span class="cursor-pointer">Home</span>
+      <router-link to="/">
+        <span class="cursor-pointer">Home</span>
+      </router-link>
     </div>
 
     <!-- categories -->
@@ -39,20 +41,21 @@
       <fa icon="list" class="text-[#b2b2b2] text-2xl cursor-pointer" />
     </div> -->
 
-
     <div
       class="hidden md:grid place-items-center px-5 py-4 border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 md:grow"
     >
-      <span class="cursor-pointer">My Account</span>
+      <router-link to="/profile">
+        <span class="cursor-pointer">My Account</span>
+      </router-link>
     </div>
 
-    <div
+    <!-- <div
       class="grid place-items-center px-5 py-4 border-b border-l border-r md:border-b-0 md:border-l md:border-r-0 border-gray-200 md:grow"
     >
       <span data-dropdown-toggle="pages" class="cursor-pointer">Pages</span>
-    </div>
+    </div> -->
     <!-- dropdown -->
-    <div
+    <!-- <div
       id="pages"
       class="hidden z-20 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
     >
@@ -87,7 +90,7 @@
           </router-link>
         </li>
       </ul>
-    </div>
+    </div> -->
 
     <!-- 4th -->
     <!-- <div
@@ -105,7 +108,6 @@
         />
       </div>
     </div> -->
-
 
     <!-- 3rd -->
     <div
