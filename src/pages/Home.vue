@@ -33,9 +33,9 @@
       </div>
 
       <!-- blog categories -->
-      <div class="pt-10">
+      <!-- <div class="pt-10">
         <blog-category />
-      </div>
+      </div> -->
     </div>
     <!-- right -->
     <div class="grow shrink overflow-hidden">
