@@ -139,7 +139,7 @@
           <span
             class="absolute mt-3 right-[-6px] text-[#777] z-10 bg-white rounded-lg px-1"
           >
-            0
+            {{ $store.state.cart.cartProducts.length }}
           </span>
           <fa
             icon="shopping-cart"
@@ -160,13 +160,18 @@
       </div>
     </div>
     <!-- cart dropdown -->
+
     <div
       id="shopping-cart-dropdown"
       class="hidden z-10 w-64 bg-white rounded shadow"
     >
       <!-- items -->
 
-      <div class="flex items-center p-3 border-b">
+      <div
+        v-for="(product, i) in $store.state.cart.cartProducts"
+        :key="i"
+        class="flex items-center p-3 border-b"
+      >
         <!-- left -->
         <div class="w-1/2">
           <img
@@ -217,12 +222,20 @@
 </template>
 
 <script>
+// import { mapState } from "vuex";
 import CatSidebar from "./CatSidebar.vue";
+
 export default {
   components: {
     CatSidebar,
   },
+  // computed: {
+  //   ...mapState(["counter"]),
+  // },
+  // computed: {
+  //   counter: function () {
+  //     return this.$store.state.cart.counter;
+  //   },
+  // },
 };
 </script>
-
-CatSidebar

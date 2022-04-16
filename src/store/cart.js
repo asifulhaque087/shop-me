@@ -1,44 +1,63 @@
 export const cart = {
   state: () => ({
-    songs: [],
     cartProducts: [],
-    activeIndex: 1,
-    activeSong: {},
-    status: "paused",
+    counter: 0,
   }),
 
-  actions: {
-    nextSong({ commit, state }) {
-      let nextIndex = state.activeIndex + 1;
+  //   actions: {
+  //     nextSong({ commit, state }) {
+  //       let nextIndex = state.activeIndex + 1;
 
-      commit("setActiveIndex", nextIndex);
-      commit("setActiveSong", state.songs[nextIndex]);
-    },
-  },
+  //       commit("setActiveIndex", nextIndex);
+  //       commit("setActiveSong", state.songs[nextIndex]);
+  //     },
+  //   },
 
   mutations: {
-    addToCart(state, prdouct) {
-      state.cartProducts.push(prdouct);
-      //   console.log("prdouct is ", prdouct);
-    },
-    setActiveIndex(index) {
-      state.activeIndex = index;
+    addToCart(state, product) {
+      const index = state.cartProducts.findIndex((object) => {
+        return object.id === product.id;
+      });
+
+      if (index > -1) {
+        state.cartProducts[index].quantity++;
+      } else {
+        product = { ...product, quantity: 1 };
+        state.cartProducts.push(product);
+      }
     },
 
-    setActiveSong(song) {
-      state.activeSong = song;
+    increment(state, id) {
+      const index = state.cartProducts.findIndex((object) => {
+        return object.id === id;
+      });
+      state.cartProducts[index].quantity++;
+    },
+
+    decrement(state, id) {
+      const index = state.cartProducts.findIndex((object) => {
+        return object.id === id;
+      });
+
+      state.cartProducts[index].quantity--;
+      if (state.cartProducts[index].quantity <= 0) {
+        state.cartProducts.splice(index, 1);
+      }
+    },
+
+    remove(state, id) {
+      const index = state.cartProducts.findIndex((object) => {
+        return object.id === id;
+      });
+      state.cartProducts.splice(index, 1);
+    },
+
+    clear(state) {
+      state.cartProducts = [];
     },
   },
 
   getters: {
-    getActiveIndex(state) {
-      return state.activeIndex;
-    },
-
-    getActiveSong(state) {
-      return state.activeSong;
-    },
-
     getCartProducts(state) {
       return state.cartProducts;
     },

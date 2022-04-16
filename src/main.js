@@ -74,7 +74,7 @@ library.add(
 // vuex
 
 createApp(App)
-  .use(store)
   .use(router)
+  .use(store)
   .component("fa", FontAwesomeIcon)
   .mount("#app");

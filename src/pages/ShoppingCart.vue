@@ -51,6 +51,8 @@
       </thead>
       <tbody className="block sm:table-row-group">
         <tr
+          v-for="(product, i) in $store.state.cart.cartProducts"
+          :key="i"
           className="h-auto sm:h-24 border-gray-300 dark:border-gray-200 border  sm:border-0 sm:border-b  align-middle text-center block sm:table-row sm:my-0"
         >
           <!-- product image -->
@@ -96,6 +98,7 @@
           >
             <div class="md:flex items-center justify-center">
               <button
+                @click="decrement(product.id)"
                 type="button"
                 class="border-l border-r border-t border-b px-3 py-2 text-center text-[#333] bg-transparent"
               >
@@ -106,10 +109,11 @@
                 type="button"
                 class="border-r border-t border-b cursor-text px-3 py-2 text-center text-[#777] bg-transparent"
               >
-                1
+                {{ product.quantity }}
               </button>
 
               <button
+                @click="increment(product.id)"
                 type="button"
                 class="border-r border-t border-b px-3 py-2 text-center text-[#333] bg-transparent"
               >
@@ -133,6 +137,7 @@
           >
             <div class="md:flex items-center gap-2 justify-center">
               <button
+                @click="remove(product.id)"
                 type="button"
                 class="px-3 py-2 text-center text-white bg-[#777] rounded hover:bg-[#333]"
               >
@@ -153,14 +158,17 @@
     <div
       class="flex gap-3 items-center justify-between flex-wrap bg-white p-4 border-l border-r border-b"
     >
-      <button
-        type="button"
-        class="whitespace-nowrap text-[#f8f8f8] bg-primary-color hover:bg-[#f8f8f8] hover:text-primary-color font-medium rounded text-sm px-5 py-2.5"
-      >
-        Continue Shopping
-      </button>
+      <router-link to="/">
+        <button
+          type="button"
+          class="whitespace-nowrap text-[#f8f8f8] bg-primary-color hover:bg-[#f8f8f8] hover:text-primary-color font-medium rounded text-sm px-5 py-2.5"
+        >
+          Continue Shopping
+        </button>
+      </router-link>
 
       <button
+        @click="clear()"
         type="button"
         class="whitespace-nowrap text-primary-color bg-[#f8f8f8] hover:bg-[#018bc8] hover:text-[#f8f8f8] font-medium rounded text-sm px-5 py-2.5"
       >
@@ -248,9 +256,13 @@
 </template>
 
 <script>
+import { mapMutations } from "vuex";
 import Product from "../components/Product.vue";
 export default {
   components: { Product },
+  methods: {
+    ...mapMutations(["increment", "decrement", "remove", "clear"]),
+  },
   // computed: {
   //   cartProducts() {
   //     return this.$store.getters.cartProducts();

@@ -60,7 +60,7 @@
 </template>
 
 <script>
-import { mapState, mapMutations } from "vuex";
+import { mapMutations } from "vuex";
 export default {
   props: ["location", "product"],
   methods: {
