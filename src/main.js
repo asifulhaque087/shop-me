@@ -4,6 +4,8 @@ import "flowbite";
 import "./index.css";
 import router from "./router";
 import store from "./store";
+import axios from "axios";
+axios.defaults.baseURL = import.meta.env.VITE_API_ENDPOINT;
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
