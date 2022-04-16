@@ -130,7 +130,10 @@
     <div
       class="grid border-l border-r md:border-l md:border-r border-gray-200 p-4 md:p-1 md:grow"
     >
-      <div class="flex items-center gap-3">
+      <div
+        class="flex items-center gap-3 cursor-pointer"
+        data-dropdown-toggle="shopping-cart-dropdown"
+      >
         <!-- left -->
         <div class="relative">
           <span
@@ -145,9 +148,69 @@
         </div>
         <!-- right -->
         <div class="flex flex-col">
-          <span class="text-xs text-[#b2b2b2] font-bold">My Cart</span>
+          <span class="text-xs text-[#b2b2b2] font-bold">
+            <!-- My Cart -->
+            <span> My Cart </span>
+            <span>
+              <fa icon="caret-down" data-dropdown-toggle="dropdown" />
+            </span>
+          </span>
           <span class="text-[#333] text-lg font-bold">€14.99</span>
         </div>
+      </div>
+    </div>
+    <!-- cart dropdown -->
+    <div
+      id="shopping-cart-dropdown"
+      class="hidden z-10 w-64 bg-white rounded shadow"
+    >
+      <!-- items -->
+
+      <div class="flex items-center p-3 border-b">
+        <!-- left -->
+        <div class="w-1/2">
+          <img
+            src="https://velikorodnov.com/wordpress/shopmewp/classic/wp-content/uploads/2015/04/1-350x350.jpg"
+            alt=""
+          />
+        </div>
+        <!-- right -->
+        <div class="">
+          <p class="text-[#333] text-sm leading-normal">
+            Metus nulla facilisi, Original 24 fl oz
+          </p>
+          <span class="flex gap-2 font-bold text-secondary-color text-lg">
+            <span class="text-gray-300 font-medium line-through">€9.99</span>
+            <span>€5.99</span>
+          </span>
+          <div class="flex items-center">
+            <fa icon="star" class="text-yellow-400 text-sm" />
+            <fa icon="star" class="text-yellow-400 text-sm" />
+            <fa icon="star-half-stroke" class="text-yellow-400 text-sm" />
+            <fa icon="star-half-stroke" class="text-yellow-400 text-sm" />
+          </div>
+        </div>
+      </div>
+
+      <!-- buttons -->
+      <div
+        class="flex gap-3 items-center justify-between flex-wrap bg-white p-4 border-l border-r border-b"
+      >
+        <router-link to="shopping-cart">
+          <button
+            type="button"
+            class="whitespace-nowrap text-primary-color bg-[#f8f8f8] hover:bg-[#018bc8] hover:text-[#f8f8f8] font-medium rounded text-sm px-5 py-2.5"
+          >
+            View Cart
+          </button>
+        </router-link>
+
+        <button
+          type="button"
+          class="whitespace-nowrap text-[#f8f8f8] bg-primary-color hover:bg-[#f8f8f8] hover:text-primary-color font-medium rounded text-sm px-5 py-2.5"
+        >
+          Checkout
+        </button>
       </div>
     </div>
   </div>
