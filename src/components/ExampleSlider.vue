@@ -18,7 +18,7 @@
       class="border-t border-b border-l"
       :class="{ 'border-r': i == 6 }"
     >
-      <product />
+      <product :product="product" />
     </swiper-slide>
   </swiper>
 </template>
@@ -41,6 +41,16 @@ export default {
   },
   data() {
     return {
+      product: {
+        id: 1,
+        title: " Metus nulla facilisi, Original 24 fl oz ",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur  dignissimos suscipit voluptatibus distinctio, error nostrum expedita omnis ipsum sit inventore aliquam sunt quam quis! ",
+        price: 650.9,
+        image_tag:
+          "https://velikorodnov.com/wordpress/shopmewp/classic/wp-content/uploads/2015/04/1-5-350x350.jpg",
+        quantity: 1,
+      },
       breakpoints: {
         420: {
           slidesPerView: 1,

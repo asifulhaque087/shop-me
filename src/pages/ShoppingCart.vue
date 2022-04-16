@@ -155,7 +155,7 @@
     >
       <button
         type="button"
-        class="whitespace-nowrap text-[#f8f8f8] bg-primary-color hover:bg-[#f8f8f8] hover:text-primary-color  font-medium rounded text-sm px-5 py-2.5"
+        class="whitespace-nowrap text-[#f8f8f8] bg-primary-color hover:bg-[#f8f8f8] hover:text-primary-color font-medium rounded text-sm px-5 py-2.5"
       >
         Continue Shopping
       </button>
@@ -181,7 +181,7 @@
           <input
             type="text"
             id="coupon"
-            class="mb-4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block w-full p-2.5"
+            class="mb-4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5"
             placeholder="Coupon Code"
           />
         </div>
@@ -191,7 +191,7 @@
         >
           <button
             type="button"
-            class="whitespace-nowrap text-[#f8f8f8] bg-primary-color hover:bg-[#f8f8f8] hover:text-primary-color  font-medium rounded text-sm px-5 py-2.5"
+            class="whitespace-nowrap text-[#f8f8f8] bg-primary-color hover:bg-[#f8f8f8] hover:text-primary-color font-medium rounded text-sm px-5 py-2.5"
           >
             Apply Coupon
           </button>
@@ -251,6 +251,11 @@
 import Product from "../components/Product.vue";
 export default {
   components: { Product },
+  // computed: {
+  //   cartProducts() {
+  //     return this.$store.getters.cartProducts();
+  //   },
+  // },
 };
 </script>
 
