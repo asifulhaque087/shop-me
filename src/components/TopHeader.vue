@@ -103,7 +103,7 @@
         </div>
         <!-- Modal body -->
         <div class="p-6 space-y-6">
-          <form class="text-[#777]">
+          <form class="text-[#777]" @submit.prevent="handleSubmit">
             <div class="mb-6">
               <label
                 for="email"
@@ -113,6 +113,7 @@
               <input
                 type="email"
                 id="email"
+                v-model="form.email"
                 class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 placeholder="name@flowbite.com"
                 required
@@ -125,11 +126,12 @@
               <input
                 type="password"
                 id="password"
+                v-model="form.password"
                 class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 required
               />
             </div>
-            <div class="flex items-start mb-6">
+            <!-- <div class="flex items-start mb-6">
               <div class="flex items-center h-5">
                 <input
                   id="remember"
@@ -142,9 +144,9 @@
               <div class="ml-3 text-sm">
                 <label for="remember" class="font-medium">Remember me</label>
               </div>
-            </div>
+            </div> -->
             <button
-              type="button"
+              type="submit"
               class="whitespace-nowrap text-primary-color bg-[#f8f8f8] hover:bg-[#018bc8] hover:text-[#f8f8f8] focus:ring-4 focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
             >
               Login
@@ -158,13 +160,25 @@
 </template>
 
 <script>
+
+import axios from "axios";
+
 export default {
   data() {
     return {
       show: true,
+      form: {
+        email: "userone@gmail.com",
+        password: "password",
+      },
     };
   },
+
   methods: {
+    handleSubmit: function () {
+      console.log("form submit");
+      axios.post('auth/login')
+    },
     // hideModal: function () {
     //   this.show = false;
     //   let backdrop = document.querySelector("[modal-backdrop]");

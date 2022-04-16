@@ -6,6 +6,7 @@ import router from "./router";
 import store from "./store";
 import axios from "axios";
 axios.defaults.baseURL = import.meta.env.VITE_API_ENDPOINT;
+// axios.defaults.baseURL = "http://localhost:5000/api/";
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
