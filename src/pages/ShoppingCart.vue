@@ -155,6 +155,14 @@
         </tr>
       </tbody>
     </table>
+
+    <!-- items -->
+    <div
+      v-if="$store.state.cart.cartProducts.length <= 0"
+      class="bg-white p-4 border-l border-r border-b"
+    >
+      <p class="text-[#777] py-5 text-center">No products found</p>
+    </div>
     <div
       class="flex gap-3 items-center justify-between flex-wrap bg-white p-4 border-l border-r border-b"
     >
@@ -168,6 +176,7 @@
       </router-link>
 
       <button
+        v-if="$store.state.cart.cartProducts.length > 0"
         @click="clear()"
         type="button"
         class="whitespace-nowrap text-primary-color bg-[#f8f8f8] hover:bg-[#018bc8] hover:text-[#f8f8f8] font-medium rounded text-sm px-5 py-2.5"
@@ -223,7 +232,7 @@
                 <th scope="row" class="px-6 py-4 whitespace-nowrap border-r">
                   Total
                 </th>
-                <td class="px-6 py-4">€14.99</td>
+                <td class="px-6 py-4">€{{ Math.floor(getCartTotal) }}</td>
               </tr>
             </tbody>
           </table>
@@ -256,7 +265,7 @@
 </template>
 
 <script>
-import { mapMutations } from "vuex";
+import { mapGetters, mapMutations } from "vuex";
 import Product from "../components/Product.vue";
 export default {
   components: { Product },
@@ -264,10 +273,18 @@ export default {
     ...mapMutations(["increment", "decrement", "remove", "clear"]),
   },
   // computed: {
-  //   cartProducts() {
-  //     return this.$store.getters.cartProducts();
-  //   },
+  //   ...mapGetters(["cart/getCartTotal"]),
   // },
+  computed: {
+    // getCartTotal() {
+    //   return this.$store.getters["cart/getCartTotal"];
+    // },
+    getCartTotal() {
+      return this.$store.state.cart.cartProducts.reduce((acc, product) => {
+        return acc + product.price * product.quantity;
+      }, 0);
+    },
+  },
 };
 </script>
 

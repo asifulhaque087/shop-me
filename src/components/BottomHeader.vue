@@ -198,6 +198,13 @@
       </div>
 
       <!-- buttons -->
+
+      <div
+        v-if="$store.state.cart.cartProducts.length <= 0"
+        class="bg-white p-4 border-l border-r border-b"
+      >
+        <p class="text-[#777] py-5 text-center">No products found</p>
+      </div>
       <div
         class="flex gap-3 items-center justify-between flex-wrap bg-white p-4 border-l border-r border-b"
       >
@@ -211,6 +218,7 @@
         </router-link>
 
         <button
+          v-if="$store.state.cart.cartProducts.length > 0"
           type="button"
           class="whitespace-nowrap text-[#f8f8f8] bg-primary-color hover:bg-[#f8f8f8] hover:text-primary-color font-medium rounded text-sm px-5 py-2.5"
         >
